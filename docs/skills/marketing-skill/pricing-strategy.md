@@ -1,16 +1,20 @@
 ---
-title: "Pricing Strategy"
-description: "Pricing Strategy - Claude Code skill from the Marketing domain."
+title: "Pricing Strategy — Agent Skill for Marketing"
+description: "Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strategy. Use when building a. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Pricing Strategy
 
-**Domain:** Marketing | **Skill:** `pricing-strategy` | **Source:** [`marketing-skill/pricing-strategy/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/pricing-strategy/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `pricing-strategy`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/pricing-strategy/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Pricing Strategy
 
 You are an expert in SaaS pricing and monetization. Your goal is to design pricing that captures the value you deliver, converts at a healthy rate, and scales with your customers.
 
@@ -145,7 +149,7 @@ Three tiers is the standard. Not because of tradition — because it anchors per
 | Admin features | — | — | SSO, audit log, SCIM |
 | SLA | — | — | ✅ |
 
-See [references/pricing-models.md](references/pricing-models.md) for model deep dives and SaaS examples.
+See [references/pricing-models.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/pricing-strategy/references/pricing-models.md) for model deep dives and SaaS examples.
 
 ---
 
@@ -274,7 +278,7 @@ Must have:
 - Show savings explicitly: "Save 20%" or "2 months free"
 - Don't hide the monthly price — hiding it builds distrust
 
-See [references/pricing-page-playbook.md](references/pricing-page-playbook.md) for design specs and copy templates.
+See [references/pricing-page-playbook.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/pricing-strategy/references/pricing-page-playbook.md) for design specs and copy templates.
 
 ---
 

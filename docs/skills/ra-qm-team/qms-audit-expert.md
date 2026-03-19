@@ -1,16 +1,20 @@
 ---
-title: "QMS Audit Expert"
-description: "QMS Audit Expert - Claude Code skill from the Regulatory & Quality domain."
+title: "QMS Audit Expert — Agent Skill for Compliance"
+description: "ISO 13485 internal audit expertise for medical device QMS. Covers audit planning, execution, nonconformity classification, and CAPA verification. Use. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # QMS Audit Expert
 
-**Domain:** Regulatory & Quality | **Skill:** `qms-audit-expert` | **Source:** [`ra-qm-team/qms-audit-expert/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/qms-audit-expert/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-shield-check-outline: Regulatory & Quality</span>
+<span class="meta-badge">:material-identifier: `qms-audit-expert`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/qms-audit-expert/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install ra-qm-skills</code>
+</div>
 
-
-# QMS Audit Expert
 
 ISO 13485 internal audit methodology for medical device quality management systems.
 

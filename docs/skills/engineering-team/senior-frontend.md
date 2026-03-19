@@ -1,16 +1,20 @@
 ---
-title: "Senior Frontend"
-description: "Senior Frontend - Claude Code skill from the Engineering - Core domain."
+title: "Senior Frontend — Agent Skill & Codex Plugin"
+description: "Frontend development skill for React, Next.js, TypeScript, and Tailwind CSS applications. Use when building React components, optimizing Next.js. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior Frontend
 
-**Domain:** Engineering - Core | **Skill:** `senior-frontend` | **Source:** [`engineering-team/senior-frontend/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-frontend/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `senior-frontend`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-frontend/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Senior Frontend
 
 Frontend development patterns, performance optimization, and automation tools for React/Next.js applications.
 

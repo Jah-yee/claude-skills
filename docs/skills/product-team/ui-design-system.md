@@ -1,16 +1,20 @@
 ---
-title: "UI Design System"
-description: "UI Design System - Claude Code skill from the Product domain."
+title: "UI Design System — Agent Skill for Product Teams"
+description: "UI design system toolkit for Senior UI Designer including design token generation, component documentation, responsive design calculations, and. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # UI Design System
 
-**Domain:** Product | **Skill:** `ui-design-system` | **Source:** [`product-team/ui-design-system/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/product-team/ui-design-system/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-lightbulb-outline: Product</span>
+<span class="meta-badge">:material-identifier: `ui-design-system`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/product-team/ui-design-system/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install product-skills</code>
+</div>
 
-
-# UI Design System
 
 Generate design tokens, create color palettes, calculate typography scales, build component systems, and prepare developer handoff documentation.
 

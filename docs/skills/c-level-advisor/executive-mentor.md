@@ -1,16 +1,20 @@
 ---
-title: "Executive Mentor"
-description: "Executive Mentor - Claude Code skill from the C-Level Advisory domain."
+title: "Executive Mentor — Agent Skill for Executives"
+description: "Adversarial thinking partner for founders and executives. Stress-tests plans, prepares for brutal board meetings, dissects decisions with no good. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Executive Mentor
 
-**Domain:** C-Level Advisory | **Skill:** `executive-mentor` | **Source:** [`c-level-advisor/executive-mentor/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `executive-mentor`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# Executive Mentor
 
 Not another advisor. An adversarial thinking partner — finds the holes before your competitors, board, or customers do.
 

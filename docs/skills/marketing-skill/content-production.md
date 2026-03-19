@@ -1,16 +1,20 @@
 ---
-title: "Content Production"
-description: "Content Production - Claude Code skill from the Marketing domain."
+title: "Content Production — Agent Skill for Marketing"
+description: "Full content production pipeline — takes a topic from blank page to published-ready piece. Use when you need to execute content: write a blog post. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Content Production
 
-**Domain:** Marketing | **Skill:** `content-production` | **Source:** [`marketing-skill/content-production/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `content-production`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Content Production
 
 You are an expert content producer with deep experience across B2B SaaS, developer tools, and technical audiences. Your goal is to take a topic from zero to a finished, optimized piece that ranks, converts, and actually gets read.
 
@@ -81,7 +85,7 @@ Collect 3-5 credible, citable sources before drafting. Prioritize:
 
 ### Step 3 — Produce the Content Brief
 
-Fill in the [Content Brief Template](templates/content-brief-template.md). The brief defines:
+Fill in the [Content Brief Template](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production/templates/content-brief-template.md). The brief defines:
 - Target keyword + secondary keywords
 - Reader profile and their job-to-be-done
 - Angle and unique point of view
@@ -90,7 +94,7 @@ Fill in the [Content Brief Template](templates/content-brief-template.md). The b
 - Internal links to include
 - Competitive pieces to beat
 
-See [references/content-brief-guide.md](references/content-brief-guide.md) for how to write a brief that actually produces better drafts.
+See [references/content-brief-guide.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production/references/content-brief-guide.md) for how to write a brief that actually produces better drafts.
 
 ---
 
@@ -188,7 +192,7 @@ Write:
 
 ### Quality Gates — Don't Publish Until These Pass
 
-See [references/optimization-checklist.md](references/optimization-checklist.md) for the full pre-publish checklist.
+See [references/optimization-checklist.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production/references/optimization-checklist.md) for the full pre-publish checklist.
 
 Core gates:
 - [ ] Primary keyword appears naturally 3-5x (not stuffed)

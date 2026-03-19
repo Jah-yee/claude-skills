@@ -1,8 +1,23 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 204,
+  "total_skills": 251,
   "skills": [
+    {
+      "name": "README",
+      "category": "agent",
+      "description": "Agent from personas"
+    },
+    {
+      "name": "TEMPLATE",
+      "category": "agent",
+      "description": "One paragraph describing what this agent does, who it's for, and when to activate it."
+    },
+    {
+      "name": "content-strategist",
+      "category": "agent",
+      "description": "Builds content engines that rank, convert, and compound. Thinks in systems \u2014 topic clusters, not individual posts. Every piece earns its place or gets killed."
+    },
     {
       "name": "cs-agile-product-owner",
       "category": "agent",
@@ -36,12 +51,17 @@
     {
       "name": "cs-financial-analyst",
       "category": "agent",
-      "description": "Financial Analyst agent for DCF valuation, financial modeling, budgeting, and forecasting. Orchestrates finance skills. Spawn when users need financial statements analysis, valuation models, budget planning, ratio analysis, or industry benchmarking."
+      "description": "Financial Analyst agent for DCF valuation, financial modeling, budgeting, forecasting, and SaaS metrics (ARR, MRR, churn, CAC, LTV, NRR). Orchestrates finance skills. Spawn when users need financial analysis, valuation models, budget planning, ratio analysis, SaaS health checks, or unit economics projections."
     },
     {
       "name": "cs-growth-strategist",
       "category": "agent",
       "description": "Growth Strategist agent for revenue operations, sales engineering, customer success, and business development. Orchestrates business-growth skills. Spawn when users need pipeline analysis, churn prevention, expansion scoring, sales demos, or proposal writing."
+    },
+    {
+      "name": "cs-product-analyst",
+      "category": "agent",
+      "description": "Product analytics agent for KPI definition, dashboard setup, experiment design, and test result interpretation."
     },
     {
       "name": "cs-product-manager",
@@ -74,9 +94,44 @@
       "description": "UX research agent for research planning, persona generation, journey mapping, and usability test analysis"
     },
     {
+      "name": "cs-workspace-admin",
+      "category": "agent",
+      "description": "Google Workspace administration agent using the gws CLI. Orchestrates workspace setup, Gmail/Drive/Sheets/Calendar automation, security audits, and recipe execution. Spawn when users need Google Workspace automation, gws CLI help, or workspace administration."
+    },
+    {
+      "name": "devops-engineer",
+      "category": "agent",
+      "description": "Builds infrastructure that scales without babysitting. Automates everything worth automating. Monitors before it breaks. Treats clicking in consoles as a production incident waiting to happen."
+    },
+    {
+      "name": "finance-lead",
+      "category": "agent",
+      "description": "Startup CFO who builds models that survive contact with reality. Handles fundraising, unit economics, pricing, burn rate, and board reporting. Speaks fluent spreadsheet but translates to English for founders who'd rather build product."
+    },
+    {
+      "name": "growth-marketer",
+      "category": "agent",
+      "description": "Growth marketing specialist for bootstrapped startups and indie hackers. Builds content engines, optimizes funnels, runs launch sequences, and finds scalable acquisition channels \u2014 all on a budget that makes enterprise marketers cry."
+    },
+    {
+      "name": "product-manager",
+      "category": "agent",
+      "description": "Ships outcomes, not features. Writes specs engineers actually read. Prioritizes ruthlessly. Kills darlings when the data says so. Operates at the intersection of user needs, business goals, and engineering reality."
+    },
+    {
+      "name": "solo-founder",
+      "category": "agent",
+      "description": "Your co-founder who doesn't exist yet. Covers product, engineering, marketing, and strategy for one-person startups \u2014 because nobody's stopping you from making bad decisions and somebody should."
+    },
+    {
+      "name": "startup-cto",
+      "category": "agent",
+      "description": "Technical co-founder who's been through two startups and learned what actually matters. Makes architecture decisions, selects tech stacks, builds engineering culture, and prepares for technical due diligence \u2014 all while shipping fast with a small team."
+    },
+    {
       "name": "business-growth-bundle",
       "category": "business-growth",
-      "description": "4 production-ready business and growth skills: customer success manager with health scoring and churn prediction, sales engineer with RFP analysis, revenue operations with pipeline and GTM metrics, and contract & proposal writer. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales engineer (RFP), revenue operations (pipeline, GTM), contract & proposal writer. Python tools (stdlib-only)."
     },
     {
       "name": "contract-and-proposal-writer",
@@ -121,7 +176,7 @@
     {
       "name": "c-level-advisor-bundle",
       "category": "c-level",
-      "description": "Provides strategic business advice by channelling the perspectives of 10 executive roles \u2014 CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, and Executive Mentor \u2014 across decisions, trade-offs, and org challenges. Runs multi-role board meetings, routes questions to the right executive voice, and delivers structured recommendations (Bottom Line \u2192 What \u2192 Why \u2192 How to Act \u2192 Your Decision). Use when a founder or executive needs business strategy advice, leadership perspective, executive decision support, board-level input, fundraising guidance, product-market fit review, hiring or culture frameworks, risk assessment, or competitive analysis."
+      "description": "10 C-level advisory agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, Executive Mentor. Multi-role board meetings, strategy routing, structured recommendations. For founders needing executive-level decision support."
     },
     {
       "name": "ceo-advisor",
@@ -274,9 +329,29 @@
       "description": "Generate changelogs from git history and validate conventional commits. Usage: /changelog <generate|lint> [options]"
     },
     {
+      "name": "cmd-a11y-audit",
+      "category": "command",
+      "description": "Scan a frontend project for WCAG 2.2 accessibility violations and fix them. Usage: /a11y-audit [path]"
+    },
+    {
+      "name": "cmd-code-to-prd",
+      "category": "command",
+      "description": "Reverse-engineer a frontend codebase into a PRD. Usage: /code-to-prd [path]"
+    },
+    {
       "name": "competitive-matrix",
       "category": "command",
       "description": "Build competitive analysis matrices with scoring and gap analysis. Usage: /competitive-matrix <analyze> [options]"
+    },
+    {
+      "name": "financial-health",
+      "category": "command",
+      "description": "Run financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecasts. Usage: /financial-health <ratios|dcf|budget|forecast> <data.json>"
+    },
+    {
+      "name": "google-workspace",
+      "category": "command",
+      "description": "Google Workspace CLI operations: setup diagnostics, security audit, recipe discovery, and output analysis. Usage: /google-workspace <setup|audit|recipe|analyze> [options]"
     },
     {
       "name": "okr",
@@ -294,6 +369,16 @@
       "description": "Detect stack and generate CI/CD pipeline configs. Usage: /pipeline <detect|generate> [options]"
     },
     {
+      "name": "plugin-audit",
+      "category": "command",
+      "description": "|"
+    },
+    {
+      "name": "prd",
+      "category": "command",
+      "description": "Quick PRD generation command. Usage: /prd <feature-or-problem>"
+    },
+    {
       "name": "project-health",
       "category": "command",
       "description": "Portfolio health dashboard and risk matrix analysis. Usage: /project-health <dashboard|risk> [options]"
@@ -309,9 +394,19 @@
       "description": "RICE feature prioritization with scoring and capacity planning. Usage: /rice prioritize <features.csv> [options]"
     },
     {
+      "name": "saas-health",
+      "category": "command",
+      "description": "Calculate SaaS health metrics (ARR, MRR, churn, CAC, LTV, NRR) and benchmark against industry standards. Usage: /saas-health <metrics|quick-ratio|simulate> [options]"
+    },
+    {
       "name": "sprint-health",
       "category": "command",
       "description": "Sprint health scoring and velocity analysis for agile teams. Usage: /sprint-health <analyze|velocity> [options]"
+    },
+    {
+      "name": "sprint-plan",
+      "category": "command",
+      "description": "Sprint planning shortcut. Usage: /sprint-plan <goal> [capacity]"
     },
     {
       "name": "tdd",
@@ -327,6 +422,11 @@
       "name": "user-story",
       "category": "command",
       "description": "Generate user stories with acceptance criteria and sprint planning. Usage: /user-story <generate|sprint> [options]"
+    },
+    {
+      "name": "a11y-audit",
+      "category": "engineering",
+      "description": "Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating accessibility checks into CI/CD pipelines."
     },
     {
       "name": "aws-solution-architect",
@@ -356,7 +456,12 @@
     {
       "name": "engineering-team-bundle",
       "category": "engineering",
-      "description": "23 production-ready engineering skills covering architecture, frontend, backend, fullstack, QA, DevOps, security, AI/ML, data engineering, computer vision, and specialized tools like Playwright Pro, Stripe integration, AWS, and MS365. 30+ Python automation tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "23 engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more tools. Architecture, frontend, backend, QA, DevOps, security, AI/ML, data engineering, Playwright, Stripe, AWS, MS365. 30+ Python tools (stdlib-only)."
+    },
+    {
+      "name": "epic-design",
+      "category": "engineering",
+      "description": ">"
     },
     {
       "name": "extract",
@@ -372,6 +477,11 @@
       "name": "generate",
       "category": "engineering",
       "description": ">-"
+    },
+    {
+      "name": "google-workspace-cli",
+      "category": "engineering",
+      "description": "Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive management, or Calendar scheduling."
     },
     {
       "name": "incident-commander",
@@ -529,6 +639,11 @@
       "description": "Agent Workflow Designer"
     },
     {
+      "name": "agenthub",
+      "category": "engineering-advanced",
+      "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel \u2014 code optimization, content variation, research exploration, or any task that benefits from parallel competition. Requires: a git repo."
+    },
+    {
       "name": "api-design-reviewer",
       "category": "engineering-advanced",
       "description": "API Design Reviewer"
@@ -537,6 +652,16 @@
       "name": "api-test-suite-builder",
       "category": "engineering-advanced",
       "description": "API Test Suite Builder"
+    },
+    {
+      "name": "autoresearch-agent",
+      "category": "engineering-advanced",
+      "description": "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code speed, reduce bundle/image size, improve test pass rate, optimize prompts, improve content quality (headlines, copy, CTR), or run any measurable improvement loop. Requires: a target file, an evaluation command that outputs a metric, and a git repo."
+    },
+    {
+      "name": "board",
+      "category": "engineering-advanced",
+      "description": "Read, write, and browse the AgentHub message board for agent coordination."
     },
     {
       "name": "changelog-generator",
@@ -569,9 +694,14 @@
       "description": "Dependency Auditor"
     },
     {
+      "name": "docker-development",
+      "category": "engineering-advanced",
+      "description": "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Use when: user wants to optimize a Dockerfile, create or improve docker-compose configurations, implement multi-stage builds, audit container security, reduce image size, or follow container best practices. Covers build performance, layer caching, secret management, and production-ready container patterns."
+    },
+    {
       "name": "engineering-bundle",
       "category": "engineering-advanced",
-      "description": "25 advanced POWERFUL-tier engineering skills covering agent design, RAG architecture, MCP servers, CI/CD pipelines, database design, observability, security auditing, release management, and platform operations. Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "25 advanced engineering agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Agent design, RAG, MCP servers, CI/CD, database design, observability, security auditing, release management, platform ops."
     },
     {
       "name": "env-secrets-manager",
@@ -579,9 +709,19 @@
       "description": "Env & Secrets Manager"
     },
     {
+      "name": "eval",
+      "category": "engineering-advanced",
+      "description": "Evaluate and rank agent results by metric or LLM judge for an AgentHub session."
+    },
+    {
       "name": "git-worktree-manager",
       "category": "engineering-advanced",
       "description": "Git Worktree Manager"
+    },
+    {
+      "name": "helm-chart-builder",
+      "category": "engineering-advanced",
+      "description": "Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw \u2014 chart scaffolding, values design, template patterns, dependency management, security hardening, and chart testing. Use when: user wants to create or improve Helm charts, design values.yaml files, implement template helpers, audit chart security (RBAC, network policies, pod security), manage subcharts, or run helm lint/test."
     },
     {
       "name": "interview-system-designer",
@@ -589,9 +729,19 @@
       "description": "This skill should be used when the user asks to \"design interview processes\", \"create hiring pipelines\", \"calibrate interview loops\", \"generate interview questions\", \"design competency matrices\", \"analyze interviewer bias\", \"create scoring rubrics\", \"build question banks\", or \"optimize hiring systems\". Use for designing role-specific interview loops, competency assessments, and hiring calibration systems."
     },
     {
+      "name": "loop",
+      "category": "engineering-advanced",
+      "description": "Start an autonomous experiment loop with user-selected interval (10min, 1h, daily, weekly, monthly). Uses CronCreate for scheduling."
+    },
+    {
       "name": "mcp-server-builder",
       "category": "engineering-advanced",
       "description": "MCP Server Builder"
+    },
+    {
+      "name": "merge",
+      "category": "engineering-advanced",
+      "description": "Merge the winning agent's branch into base, archive losers, and clean up worktrees."
     },
     {
       "name": "migration-architect",
@@ -629,6 +779,16 @@
       "description": "Release Manager"
     },
     {
+      "name": "resume",
+      "category": "engineering-advanced",
+      "description": "Resume a paused experiment. Checkout the experiment branch, read results history, continue iterating."
+    },
+    {
+      "name": "run",
+      "category": "engineering-advanced",
+      "description": "One-shot lifecycle command that chains init \u2192 baseline \u2192 spawn \u2192 eval \u2192 merge in a single invocation."
+    },
+    {
       "name": "runbook-generator",
       "category": "engineering-advanced",
       "description": "Runbook Generator"
@@ -637,6 +797,11 @@
       "name": "sample-skill",
       "category": "engineering-advanced",
       "description": "Skill from engineering/skill-tester/assets/sample-skill"
+    },
+    {
+      "name": "setup",
+      "category": "engineering-advanced",
+      "description": "Set up a new autoresearch experiment interactively. Collects domain, target file, eval command, metric, direction, and evaluator."
     },
     {
       "name": "skill-security-auditor",
@@ -649,19 +814,54 @@
       "description": "Skill Tester"
     },
     {
+      "name": "skills-init",
+      "category": "engineering-advanced",
+      "description": "Create a new AgentHub collaboration session with task, agent count, and evaluation criteria."
+    },
+    {
+      "name": "skills-run",
+      "category": "engineering-advanced",
+      "description": "Run a single experiment iteration. Edit the target file, evaluate, keep or discard."
+    },
+    {
+      "name": "skills-status",
+      "category": "engineering-advanced",
+      "description": "Show DAG state, agent progress, and branch status for an AgentHub session."
+    },
+    {
+      "name": "skills-status",
+      "category": "engineering-advanced",
+      "description": "Show experiment dashboard with results, active loops, and progress."
+    },
+    {
+      "name": "spawn",
+      "category": "engineering-advanced",
+      "description": "Launch N parallel subagents in isolated git worktrees to compete on the session task."
+    },
+    {
       "name": "tech-debt-tracker",
       "category": "engineering-advanced",
       "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation."
     },
     {
+      "name": "terraform-patterns",
+      "category": "engineering-advanced",
+      "description": "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wants to design Terraform modules, manage state backends, review Terraform security, implement multi-region deployments, or follow IaC best practices."
+    },
+    {
       "name": "finance-bundle",
       "category": "finance",
-      "description": "Production-ready financial analyst skill with ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction. 4 Python tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "Financial analyst agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Ratio analysis, DCF valuation, budget variance, rolling forecasts. 4 Python tools (stdlib-only)."
     },
     {
       "name": "financial-analyst",
       "category": "finance",
       "description": "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis."
+    },
+    {
+      "name": "saas-metrics-coach",
+      "category": "finance",
+      "description": "SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing."
     },
     {
       "name": "ab-test-setup",
@@ -791,7 +991,7 @@
     {
       "name": "marketing-skill-bundle",
       "category": "marketing",
-      "description": "42-skill marketing division for AI coding agents. 7 specialist pods covering content, SEO, CRO, channels, growth, intelligence, and sales. Foundation context system + orchestration router. 27 Python tools (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO, channels, growth, intelligence, sales. Foundation context + orchestration router. 27 Python tools (stdlib-only)."
     },
     {
       "name": "marketing-strategy-pmm",
@@ -879,9 +1079,19 @@
       "description": "When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'engagement rate,' 'social media audit,' or 'which platforms should I use.' For writing individual social posts, see social-content. For analyzing social performance data, see social-media-analyzer."
     },
     {
+      "name": "x-twitter-growth",
+      "category": "marketing",
+      "description": "X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write tweets or threads, analyze their X profile, research competitors on X, plan a posting strategy, or optimize engagement. Complements social-content (generic multi-platform) with X-specific depth: algorithm mechanics, thread engineering, reply strategy, profile optimization, and competitive intelligence via web search."
+    },
+    {
       "name": "agile-product-owner",
       "category": "product",
       "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing backlog."
+    },
+    {
+      "name": "code-to-prd",
+      "category": "product",
+      "description": "|"
     },
     {
       "name": "competitive-teardown",
@@ -889,9 +1099,24 @@
       "description": "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits, pricing model breakdowns, action item roadmaps, and stakeholder presentation templates. Use when conducting competitor analysis, comparing products against competitors, researching the competitive landscape, building battle cards for sales, preparing for a product strategy or roadmap session, responding to a competitor's new feature or pricing change, or performing a quarterly competitive review."
     },
     {
+      "name": "experiment-designer",
+      "category": "product",
+      "description": "Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor."
+    },
+    {
       "name": "landing-page-generator",
       "category": "product",
       "description": "Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage, single-page site, lead capture page, campaign page, promo page, or conversion-optimised web page \u2014 or when they want to A/B test landing page variants or replace a static page with one designed to convert."
+    },
+    {
+      "name": "product-analytics",
+      "category": "product",
+      "description": "Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages."
+    },
+    {
+      "name": "product-discovery",
+      "category": "product",
+      "description": "Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing delivery resources."
     },
     {
       "name": "product-manager-toolkit",
@@ -906,7 +1131,17 @@
     {
       "name": "product-team-bundle",
       "category": "product",
-      "description": "8 production-ready product skills: product manager toolkit with RICE prioritization, agile product owner, product strategist with OKR cascades, UX researcher, UI design system, competitive teardown, landing page generator, and SaaS scaffolder. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "10 product agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. PM toolkit (RICE), agile PO, product strategist (OKR), UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, research summarizer. Python tools (stdlib-only)."
+    },
+    {
+      "name": "research-summarizer",
+      "category": "product",
+      "description": "Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multiple sources, extract citations from documents, or create structured research briefs. Plugin for Claude Code, Codex, Gemini CLI, and OpenClaw."
+    },
+    {
+      "name": "roadmap-communicator",
+      "category": "product",
+      "description": "Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers."
     },
     {
       "name": "saas-scaffolder",
@@ -946,7 +1181,7 @@
     {
       "name": "project-management-bundle",
       "category": "project-management",
-      "description": "6 production-ready project management skills for Atlassian users: senior PM with portfolio management, scrum master with velocity forecasting, Jira expert with JQL mastery, Confluence expert, Atlassian admin, and template creator. MCP integration for live Jira/Confluence automation. Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "6 project management agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Senior PM, scrum master, Jira expert (JQL), Confluence expert, Atlassian admin, template creator. MCP integration for live Jira/Confluence automation."
     },
     {
       "name": "scrum-master",
@@ -1011,7 +1246,7 @@
     {
       "name": "ra-qm-team-bundle",
       "category": "ra-qm",
-      "description": "12 production-ready regulatory affairs and quality management skills for HealthTech/MedTech: ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO compliance, risk management (ISO 14971), CAPA, document control, and internal auditing. Python tools included (all stdlib-only). Works with Claude Code, Codex CLI, and OpenClaw."
+      "description": "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO 27001 ISMS, GDPR/DSGVO, risk management (ISO 14971), CAPA, document control, auditing. Python tools (stdlib-only)."
     },
     {
       "name": "regulatory-affairs-head",
@@ -1026,7 +1261,7 @@
   ],
   "categories": {
     "agent": {
-      "count": 14,
+      "count": 25,
       "description": "Agent resources"
     },
     "business-growth": {
@@ -1038,27 +1273,27 @@
       "description": "C-level resources"
     },
     "command": {
-      "count": 12,
+      "count": 20,
       "description": "Command resources"
     },
     "engineering": {
-      "count": 38,
+      "count": 41,
       "description": "Engineering resources"
     },
     "engineering-advanced": {
-      "count": 27,
+      "count": 44,
       "description": "Engineering-advanced resources"
     },
     "finance": {
-      "count": 2,
+      "count": 3,
       "description": "Finance resources"
     },
     "marketing": {
-      "count": 43,
+      "count": 44,
       "description": "Marketing resources"
     },
     "product": {
-      "count": 9,
+      "count": 15,
       "description": "Product resources"
     },
     "project-management": {

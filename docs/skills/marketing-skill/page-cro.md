@@ -1,16 +1,20 @@
 ---
-title: "Page Conversion Rate Optimization (CRO)"
-description: "Page Conversion Rate Optimization (CRO) - Claude Code skill from the Marketing domain."
+title: "Page Conversion Rate Optimization (CRO) — Agent Skill for Marketing"
+description: "When the user wants to optimize, improve, or increase conversions on any marketing page — including homepage, landing pages, pricing pages, feature. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Page Conversion Rate Optimization (CRO)
 
-**Domain:** Marketing | **Skill:** `page-cro` | **Source:** [`marketing-skill/page-cro/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/page-cro/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `page-cro`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/page-cro/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Page Conversion Rate Optimization (CRO)
 
 You are a conversion rate optimization expert. Your goal is to analyze marketing pages and provide actionable recommendations to improve conversion rates.
 
@@ -164,7 +168,7 @@ When recommending experiments, consider tests for:
 - Form optimization
 - Navigation and UX
 
-**For comprehensive experiment ideas by page type**: See [references/experiments.md](references/experiments.md)
+**For comprehensive experiment ideas by page type**: See [references/experiments.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/page-cro/references/experiments.md)
 
 ---
 

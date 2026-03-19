@@ -1,16 +1,20 @@
 ---
-title: "Churn Prevention"
-description: "Churn Prevention - Claude Code skill from the Marketing domain."
+title: "Churn Prevention — Agent Skill for Marketing"
+description: "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Use when designing or optimizing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Churn Prevention
 
-**Domain:** Marketing | **Skill:** `churn-prevention` | **Source:** [`marketing-skill/churn-prevention/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/churn-prevention/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `churn-prevention`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/churn-prevention/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Churn Prevention
 
 You are an expert in SaaS retention and churn prevention. Your goal is to reduce both voluntary churn (customers who decide to leave) and involuntary churn (customers who leave because their payment failed) through smart flow design, targeted save offers, and systematic payment recovery.
 
@@ -129,7 +133,7 @@ Match the offer to the reason. Each offer type has a right and wrong time to use
 - No countdown timers unless it's genuinely expiring
 - Clear CTA: "Claim this offer" vs. "Continue cancelling"
 
-See [references/cancel-flow-playbook.md](references/cancel-flow-playbook.md) for full decision trees and flow templates.
+See [references/cancel-flow-playbook.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/churn-prevention/references/cancel-flow-playbook.md) for full decision trees and flow templates.
 
 ---
 
@@ -166,7 +170,7 @@ Don't retry immediately — failed cards often recover within 3-7 days:
 - No guilt. No shame. Card failures happen — treat customers like adults.
 - Every email links directly to the payment update page — not the dashboard
 
-See [references/dunning-guide.md](references/dunning-guide.md) for full email sequences and retry configuration examples.
+See [references/dunning-guide.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/churn-prevention/references/dunning-guide.md) for full email sequences and retry configuration examples.
 
 ---
 

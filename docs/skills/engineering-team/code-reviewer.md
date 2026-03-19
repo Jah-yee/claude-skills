@@ -1,16 +1,20 @@
 ---
-title: "Code Reviewer"
-description: "Code Reviewer - Claude Code skill from the Engineering - Core domain."
+title: "Code Reviewer — Agent Skill & Codex Plugin"
+description: "Code review automation for TypeScript, JavaScript, Python, Go, Swift, Kotlin. Analyzes PRs for complexity and risk, checks code quality for SOLID. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Code Reviewer
 
-**Domain:** Engineering - Core | **Skill:** `code-reviewer` | **Source:** [`engineering-team/code-reviewer/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/code-reviewer/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `code-reviewer`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/code-reviewer/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Code Reviewer
 
 Automated code review tools for analyzing pull requests, detecting code quality issues, and generating review reports.
 

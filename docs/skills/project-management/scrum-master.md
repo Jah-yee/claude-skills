@@ -1,16 +1,20 @@
 ---
-title: "Scrum Master Expert"
-description: "Scrum Master Expert - Claude Code skill from the Project Management domain."
+title: "Scrum Master Expert — Agent Skill for PM"
+description: "Advanced Scrum Master skill for data-driven agile team analysis and coaching. Use when the user asks about sprint planning, velocity tracking. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Scrum Master Expert
 
-**Domain:** Project Management | **Skill:** `scrum-master` | **Source:** [`project-management/scrum-master/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/project-management/scrum-master/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
+<span class="meta-badge">:material-identifier: `scrum-master`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/scrum-master/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install pm-skills</code>
+</div>
 
-
-# Scrum Master Expert
 
 Data-driven Scrum Master skill combining sprint analytics, probabilistic forecasting, and team development coaching. The unique value is in the three Python analysis scripts and their workflows — refer to `references/` and `assets/` for deeper framework detail.
 

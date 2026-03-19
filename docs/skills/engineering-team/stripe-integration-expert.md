@@ -1,16 +1,20 @@
 ---
-title: "Stripe Integration Expert"
-description: "Stripe Integration Expert - Claude Code skill from the Engineering - Core domain."
+title: "Stripe Integration Expert — Agent Skill & Codex Plugin"
+description: "Stripe Integration Expert. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Stripe Integration Expert
 
-**Domain:** Engineering - Core | **Skill:** `stripe-integration-expert` | **Source:** [`engineering-team/stripe-integration-expert/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/stripe-integration-expert/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `stripe-integration-expert`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/stripe-integration-expert/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Stripe Integration Expert
 
 **Tier:** POWERFUL  
 **Category:** Engineering Team  

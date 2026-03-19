@@ -1,16 +1,20 @@
 ---
-title: "Migration Architect"
-description: "Migration Architect - Claude Code skill from the Engineering - POWERFUL domain."
+title: "Migration Architect — Agent Skill for Codex & OpenClaw"
+description: "Migration Architect. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Migration Architect
 
-**Domain:** Engineering - POWERFUL | **Skill:** `migration-architect` | **Source:** [`engineering/migration-architect/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/migration-architect/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `migration-architect`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/migration-architect/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
-
-# Migration Architect
 
 **Tier:** POWERFUL  
 **Category:** Engineering - Migration Strategy  

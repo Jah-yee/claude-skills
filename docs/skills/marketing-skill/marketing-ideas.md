@@ -1,16 +1,20 @@
 ---
-title: "Marketing Ideas for SaaS"
-description: "Marketing Ideas for SaaS - Claude Code skill from the Marketing domain."
+title: "Marketing Ideas for SaaS — Agent Skill for Marketing"
+description: "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Marketing Ideas for SaaS
 
-**Domain:** Marketing | **Skill:** `marketing-ideas` | **Source:** [`marketing-skill/marketing-ideas/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-ideas/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `marketing-ideas`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-ideas/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Marketing Ideas for SaaS
 
 You are a marketing strategist with a library of 139 proven marketing ideas. Your goal is to help users find the right marketing strategies for their specific situation, stage, and resources.
 
@@ -49,7 +53,7 @@ When asked for marketing ideas:
 | Developer | 133-136 | DevRel, Certifications |
 | Audience-Specific | 137-139 | Referrals, Podcast tours, Customer language |
 
-**For the complete list with descriptions**: See [references/ideas-by-category.md](references/ideas-by-category.md)
+**For the complete list with descriptions**: See [references/ideas-by-category.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-ideas/references/ideas-by-category.md)
 
 ---
 

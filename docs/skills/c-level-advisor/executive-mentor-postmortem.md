@@ -1,16 +1,20 @@
 ---
-title: "/em:postmortem — Honest Analysis of What Went Wrong"
-description: "/em:postmortem — Honest Analysis of What Went Wrong - Claude Code skill from the C-Level Advisory domain."
+title: "/em:postmortem — Honest Analysis of What Went Wrong — Agent Skill for Executives"
+description: "/em -postmortem — Honest Analysis of What Went Wrong. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /em:postmortem — Honest Analysis of What Went Wrong
 
-**Domain:** C-Level Advisory | **Skill:** `postmortem` | **Source:** [`c-level-advisor/executive-mentor/skills/postmortem/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/postmortem/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `postmortem`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/executive-mentor/skills/postmortem/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# /em:postmortem — Honest Analysis of What Went Wrong
 
 **Command:** `/em:postmortem <event>`
 

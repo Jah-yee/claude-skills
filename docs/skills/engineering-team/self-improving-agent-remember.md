@@ -1,16 +1,20 @@
 ---
-title: "/si:remember — Save Knowledge Explicitly"
-description: "/si:remember — Save Knowledge Explicitly - Claude Code skill from the Engineering - Core domain."
+title: "/si:remember — Save Knowledge Explicitly — Agent Skill & Codex Plugin"
+description: "Explicitly save important knowledge to auto-memory with timestamp and context. Use when a discovery is too important to rely on auto-capture. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /si:remember — Save Knowledge Explicitly
 
-**Domain:** Engineering - Core | **Skill:** `remember` | **Source:** [`engineering-team/self-improving-agent/skills/remember/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/remember/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `remember`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/remember/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# /si:remember — Save Knowledge Explicitly
 
 Writes an explicit entry to auto-memory when something is important enough that you don't want to rely on Claude noticing it automatically.
 

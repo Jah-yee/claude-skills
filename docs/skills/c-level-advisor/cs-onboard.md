@@ -1,16 +1,20 @@
 ---
-title: "C-Suite Onboarding"
-description: "C-Suite Onboarding - Claude Code skill from the C-Level Advisory domain."
+title: "C-Suite Onboarding — Agent Skill for Executives"
+description: "Founder onboarding interview that captures company context across 7 dimensions. Invoke with /cs:setup for initial interview or /cs:update for. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # C-Suite Onboarding
 
-**Domain:** C-Level Advisory | **Skill:** `cs-onboard` | **Source:** [`c-level-advisor/cs-onboard/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/cs-onboard/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `cs-onboard`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/cs-onboard/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# C-Suite Onboarding
 
 Structured founder interview that builds the company context file powering every C-suite advisor. One 45-minute conversation. Persistent context across all roles.
 

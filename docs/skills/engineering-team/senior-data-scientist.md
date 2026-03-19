@@ -1,16 +1,20 @@
 ---
-title: "Senior Data Scientist"
-description: "Senior Data Scientist - Claude Code skill from the Engineering - Core domain."
+title: "Senior Data Scientist — Agent Skill & Codex Plugin"
+description: "World-class senior data scientist skill specialising in statistical modeling, experiment design, causal inference, and predictive analytics. Covers. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior Data Scientist
 
-**Domain:** Engineering - Core | **Skill:** `senior-data-scientist` | **Source:** [`engineering-team/senior-data-scientist/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-data-scientist/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `senior-data-scientist`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-data-scientist/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Senior Data Scientist
 
 World-class senior data scientist skill for production-grade AI/ML/Data systems.
 

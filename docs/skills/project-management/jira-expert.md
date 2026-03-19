@@ -1,16 +1,20 @@
 ---
-title: "Atlassian Jira Expert"
-description: "Atlassian Jira Expert - Claude Code skill from the Project Management domain."
+title: "Atlassian Jira Expert — Agent Skill for PM"
+description: "Atlassian Jira expert for creating and managing projects, planning, product discovery, JQL queries, workflows, custom fields, automation, reporting. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Atlassian Jira Expert
 
-**Domain:** Project Management | **Skill:** `jira-expert` | **Source:** [`project-management/jira-expert/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/project-management/jira-expert/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
+<span class="meta-badge">:material-identifier: `jira-expert`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/jira-expert/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install pm-skills</code>
+</div>
 
-
-# Atlassian Jira Expert
 
 Master-level expertise in Jira configuration, project management, JQL, workflows, automation, and reporting. Handles all technical and operational aspects of Jira.
 

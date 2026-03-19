@@ -1,16 +1,20 @@
 ---
-title: "RAG Architect - POWERFUL"
-description: "RAG Architect - POWERFUL - Claude Code skill from the Engineering - POWERFUL domain."
+title: "RAG Architect — Agent Skill for Codex & OpenClaw"
+description: "RAG Architect - POWERFUL. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
-# RAG Architect - POWERFUL
+# RAG Architect
 
-**Domain:** Engineering - POWERFUL | **Skill:** `rag-architect` | **Source:** [`engineering/rag-architect/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/rag-architect/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `rag-architect`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/rag-architect/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
-
-# RAG Architect - POWERFUL
 
 ## Overview
 

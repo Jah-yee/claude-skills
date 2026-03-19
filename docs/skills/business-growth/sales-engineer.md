@@ -1,16 +1,20 @@
 ---
-title: "Sales Engineer Skill"
-description: "Sales Engineer Skill - Claude Code skill from the Business & Growth domain."
+title: "Sales Engineer Skill — Agent Skill for Growth"
+description: "Analyzes RFP/RFI responses for coverage gaps, builds competitive feature comparison matrices, and plans proof-of-concept (POC) engagements for. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Sales Engineer Skill
 
-**Domain:** Business & Growth | **Skill:** `sales-engineer` | **Source:** [`business-growth/sales-engineer/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/sales-engineer/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-trending-up: Business & Growth</span>
+<span class="meta-badge">:material-identifier: `sales-engineer`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/sales-engineer/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install business-growth-skills</code>
+</div>
 
-
-# Sales Engineer Skill
 
 ## 5-Phase Workflow
 
@@ -218,10 +222,10 @@ python scripts/poc_planner.py poc_data.json --format json  # JSON output
 
 ## Integration Points
 
-- **Marketing Skills** - Leverage competitive intelligence and messaging frameworks from `../../marketing-skill/`
-- **Product Team** - Coordinate on roadmap items flagged as "Planned" in RFP analysis from `../../product-team/`
-- **C-Level Advisory** - Escalate strategic deals requiring executive engagement from `../../c-level-advisor/`
-- **Customer Success** - Hand off POC results and success criteria to CSM from `../customer-success-manager/`
+- **Marketing Skills** - Leverage competitive intelligence and messaging frameworks from [`marketing-skill`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill)
+- **Product Team** - Coordinate on roadmap items flagged as "Planned" in RFP analysis from [`product-team`](https://github.com/alirezarezvani/claude-skills/tree/main/product-team)
+- **C-Level Advisory** - Escalate strategic deals requiring executive engagement from [`c-level-advisor`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor)
+- **Customer Success** - Hand off POC results and success criteria to CSM from [`business-growth/customer-success-manager`](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/customer-success-manager)
 
 ---
 

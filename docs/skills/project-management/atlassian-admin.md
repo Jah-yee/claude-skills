@@ -1,16 +1,20 @@
 ---
-title: "Atlassian Administrator Expert"
-description: "Atlassian Administrator Expert - Claude Code skill from the Project Management domain."
+title: "Atlassian Administrator Expert — Agent Skill for PM"
+description: "Atlassian Administrator for managing and organizing Atlassian products (Jira, Confluence, Bitbucket, Trello), users, permissions, security. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Atlassian Administrator Expert
 
-**Domain:** Project Management | **Skill:** `atlassian-admin` | **Source:** [`project-management/atlassian-admin/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/project-management/atlassian-admin/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
+<span class="meta-badge">:material-identifier: `atlassian-admin`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/atlassian-admin/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install pm-skills</code>
+</div>
 
-
-# Atlassian Administrator Expert
 
 ## Workflows
 

@@ -1,16 +1,20 @@
 ---
-title: "Atlassian Confluence Expert"
-description: "Atlassian Confluence Expert - Claude Code skill from the Project Management domain."
+title: "Atlassian Confluence Expert — Agent Skill for PM"
+description: "Atlassian Confluence expert for creating and managing spaces, knowledge bases, and documentation. Configures space permissions and hierarchies. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Atlassian Confluence Expert
 
-**Domain:** Project Management | **Skill:** `confluence-expert` | **Source:** [`project-management/confluence-expert/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/project-management/confluence-expert/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
+<span class="meta-badge">:material-identifier: `confluence-expert`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/confluence-expert/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install pm-skills</code>
+</div>
 
-
-# Atlassian Confluence Expert
 
 Master-level expertise in Confluence space management, documentation architecture, content creation, macros, templates, and collaborative knowledge management.
 

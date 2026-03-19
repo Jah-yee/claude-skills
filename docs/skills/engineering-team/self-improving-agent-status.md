@@ -1,16 +1,20 @@
 ---
-title: "/si:status — Memory Health Dashboard"
-description: "/si:status — Memory Health Dashboard - Claude Code skill from the Engineering - Core domain."
+title: "/si:status — Memory Health Dashboard — Agent Skill & Codex Plugin"
+description: "Memory health dashboard showing line counts, topic files, capacity, stale entries, and recommendations. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /si:status — Memory Health Dashboard
 
-**Domain:** Engineering - Core | **Skill:** `status` | **Source:** [`engineering-team/self-improving-agent/skills/status/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/status/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `status`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/status/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# /si:status — Memory Health Dashboard
 
 Quick overview of your project's memory state across all memory systems.
 

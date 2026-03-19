@@ -1,16 +1,20 @@
 ---
-title: "Regulatory Affairs & Quality Management Skills"
-description: "Regulatory Affairs & Quality Management Skills - Claude Code skill from the Regulatory & Quality domain."
+title: "Regulatory Affairs & Quality Management Skills — Agent Skill for Compliance"
+description: "12 regulatory & QM agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. ISO 13485 QMS, MDR 2017/745, FDA 510(k)/PMA, ISO."
 ---
 
 # Regulatory Affairs & Quality Management Skills
 
-**Domain:** Regulatory & Quality | **Skill:** `ra-qm-team` | **Source:** [`ra-qm-team/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-shield-check-outline: Regulatory & Quality</span>
+<span class="meta-badge">:material-identifier: `ra-qm-team`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install ra-qm-skills</code>
+</div>
 
-
-# Regulatory Affairs & Quality Management Skills
 
 12 production-ready compliance skills for HealthTech and MedTech organizations.
 

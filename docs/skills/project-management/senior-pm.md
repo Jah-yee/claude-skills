@@ -1,16 +1,20 @@
 ---
-title: "Senior Project Management Expert"
-description: "Senior Project Management Expert - Claude Code skill from the Project Management domain."
+title: "Senior Project Management Expert — Agent Skill for PM"
+description: "Senior Project Manager for enterprise software, SaaS, and digital transformation projects. Specializes in portfolio management, quantitative risk. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior Project Management Expert
 
-**Domain:** Project Management | **Skill:** `senior-pm` | **Source:** [`project-management/senior-pm/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/project-management/senior-pm/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-clipboard-check-outline: Project Management</span>
+<span class="meta-badge">:material-identifier: `senior-pm`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/project-management/senior-pm/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install pm-skills</code>
+</div>
 
-
-# Senior Project Management Expert
 
 ## Overview
 

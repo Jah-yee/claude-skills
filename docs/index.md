@@ -1,6 +1,6 @@
 ---
-title: Claude Code Skills & Plugins
-description: "177 production-ready skills and plugins for Claude Code, OpenAI Codex, and OpenClaw. Reusable expertise bundles for engineering, product, marketing, compliance, and more."
+title: 205 Agent Skills for Codex, Gemini CLI & OpenClaw
+description: "205 production-ready Claude Code skills and agent plugins for 11 AI coding tools. Engineering, product, marketing, compliance, and finance agent skills for Claude Code, OpenAI Codex, Gemini CLI, Cursor, and OpenClaw."
 hide:
   - toc
   - edit
@@ -12,44 +12,114 @@ hide:
 
 <div class="hero" markdown>
 
-# Claude Code Skills
+# Agent Skills
 
-177 production-ready skills that transform AI coding agents into specialized professionals.
+205 production-ready skills, 16 agents, 3 personas, and an orchestration protocol for AI coding tools.
 { .hero-subtitle }
 
-**Claude Code** | **OpenAI Codex** | **OpenClaw**
-{ .hero-platforms }
-
 [Get Started](getting-started.md){ .md-button .md-button--primary }
+[Browse Skills](skills/){ .md-button }
 [GitHub :fontawesome-brands-github:](https://github.com/alirezarezvani/claude-skills){ .md-button }
 
 </div>
 
+<div class="tools-bar" markdown>
+
+<p class="tools-label">Works with</p>
+
+<div class="tools-grid">
+  <a href="getting-started/#claude-code" class="tool-badge tool-claude">Claude Code</a>
+  <a href="getting-started/#openai-codex" class="tool-badge tool-codex">OpenAI Codex</a>
+  <a href="getting-started/#gemini-cli" class="tool-badge tool-gemini">Gemini CLI</a>
+  <a href="integrations/#cursor" class="tool-badge tool-cursor">Cursor</a>
+  <a href="integrations/#aider" class="tool-badge tool-aider">Aider</a>
+  <a href="integrations/#windsurf" class="tool-badge tool-windsurf">Windsurf</a>
+  <a href="integrations/#kilo-code" class="tool-badge tool-kilo">Kilo Code</a>
+  <a href="integrations/#opencode" class="tool-badge tool-opencode">OpenCode</a>
+  <a href="integrations/#augment" class="tool-badge tool-augment">Augment</a>
+  <a href="integrations/#antigravity" class="tool-badge tool-antigravity">Antigravity</a>
+  <a href="getting-started/#openclaw" class="tool-badge tool-openclaw">OpenClaw</a>
+</div>
+
+</div>
+
+---
+
+## What's Inside
+
 <div class="grid cards" markdown>
 
--   :material-counter:{ .lg .middle } **177**
+-   :material-toolbox:{ .lg .middle } **204 Skills**
 
     ---
 
-    Production-ready skills
+    Production-ready instruction packages with structured workflows, Python automation tools, and reference documentation across 9 domains.
 
--   :material-language-python:{ .lg .middle } **218+**
+    [:octicons-arrow-right-24: Browse skills](skills/)
 
-    ---
-
-    Python CLI tools (stdlib-only)
-
--   :material-domain:{ .lg .middle } **9**
+-   :material-robot:{ .lg .middle } **16 Agents**
 
     ---
 
-    Professional domains
+    Multi-skill orchestrators that combine domain expertise for complex tasks — from engineering leads to financial analysts.
 
--   :material-package-variant:{ .lg .middle } **0**
+    [:octicons-arrow-right-24: View agents](agents/)
+
+-   :material-account-group:{ .lg .middle } **3 Personas**
 
     ---
 
-    External dependencies
+    Role-based identities with curated skill loadouts, decision frameworks, and distinct communication styles.
+
+    [:octicons-arrow-right-24: Meet personas](personas/)
+
+-   :material-sitemap:{ .lg .middle } **Orchestration**
+
+    ---
+
+    A lightweight protocol for coordinating personas, skills, and agents on work that crosses domain boundaries.
+
+    [:octicons-arrow-right-24: Learn patterns](orchestration.md)
+
+-   :material-language-python:{ .lg .middle } **268 Python Tools**
+
+    ---
+
+    CLI scripts that ship with skills — all stdlib-only, zero pip installs, verified working on any platform.
+
+    [:octicons-arrow-right-24: Getting started](getting-started.md)
+
+-   :material-puzzle-outline:{ .lg .middle } **28 Plugins**
+
+    ---
+
+    One-command installable bundles for Claude Code, Codex CLI, Gemini CLI, and OpenClaw.
+
+    [:octicons-arrow-right-24: Plugin marketplace](plugins/)
+
+-   :material-console:{ .lg .middle } **19 Commands**
+
+    ---
+
+    Slash commands for common operations — sprint planning, tech debt analysis, PRDs, OKRs, and more.
+
+    [:octicons-arrow-right-24: View commands](commands/)
+
+-   :material-swap-horizontal:{ .lg .middle } **11 Tool Support**
+
+    ---
+
+    Convert all skills to any supported tool's native format with a single script. No manual work.
+
+    [:octicons-arrow-right-24: Multi-tool setup](integrations.md)
+
+-   :material-chat-outline:{ .lg .middle } **6 Custom GPTs**
+
+    ---
+
+    Use Agent Skills directly in ChatGPT — no setup needed. Solo Founder, SEO Audit, Content Strategy, CTO Advisor, and more.
+
+    [:octicons-arrow-right-24: Open GPTs](custom-gpts.md)
 
 </div>
 
@@ -65,31 +135,31 @@ hide:
 
     Architecture, frontend, backend, fullstack, QA, DevOps, SecOps, AI/ML, data engineering, Playwright testing, self-improving agent
 
-    [:octicons-arrow-right-24: 23 skills](skills/engineering-team/)
+    [:octicons-arrow-right-24: 26 skills](skills/engineering-team/)
 
--   :material-lightning-bolt:{ .lg .middle } **Engineering — POWERFUL**
+-   :material-lightning-bolt:{ .lg .middle } **Engineering — Advanced**
 
     ---
 
     Agent designer, RAG architect, database designer, CI/CD builder, MCP server builder, security auditor, tech debt tracker
 
-    [:octicons-arrow-right-24: 25 skills](skills/engineering/)
+    [:octicons-arrow-right-24: 30 skills](skills/engineering/)
 
 -   :material-bullseye-arrow:{ .lg .middle } **Product**
 
     ---
 
-    Product manager, agile PO, strategist, UX researcher, UI design system, landing pages, SaaS scaffolder
+    Product manager, agile PO, strategist, UX researcher, UI design system, landing pages, SaaS scaffolder, analytics, experiment designer
 
-    [:octicons-arrow-right-24: 8 skills](skills/product-team/)
+    [:octicons-arrow-right-24: 14 skills](skills/product-team/)
 
 -   :material-bullhorn:{ .lg .middle } **Marketing**
 
     ---
 
-    Content, SEO, CRO, channels, growth, intelligence, sales — 7 specialist pods with 27 Python tools
+    Content, SEO, CRO, channels, growth, intelligence, sales — 7 specialist pods with 32 Python tools
 
-    [:octicons-arrow-right-24: 42 skills](skills/marketing-skill/)
+    [:octicons-arrow-right-24: 43 skills](skills/marketing-skill/)
 
 -   :material-clipboard-check:{ .lg .middle } **Project Management**
 
@@ -127,53 +197,53 @@ hide:
 
     ---
 
-    Financial analyst — DCF valuation, budgeting, forecasting, ratio analysis
+    Financial analyst, SaaS metrics coach — DCF valuation, budgeting, forecasting, ARR/MRR/churn/LTV
 
-    [:octicons-arrow-right-24: 1 skill](skills/finance/)
+    [:octicons-arrow-right-24: 2 skills](skills/finance/)
 
 </div>
 
 ---
 
-## Why Skills?
+## Why Agent Skills?
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } **Zero setup**
+-   :material-clock-fast:{ .lg .middle } **Zero dependencies**
 
     ---
 
-    All Python tools use stdlib only. No pip installs, no API keys, no configuration files.
+    All Python tools use stdlib only. No pip installs, no API keys, no configuration files. Works anywhere Python runs.
 
 -   :material-shield-lock:{ .lg .middle } **Security first**
 
     ---
 
-    Built-in security auditor scans any skill for malicious code before you install it.
+    Built-in security auditor scans any skill for malicious code, data exfiltration, and prompt injection before installation.
 
 -   :material-rocket-launch:{ .lg .middle } **One-command install**
 
     ---
 
-    Plugin marketplace lets you install entire skill bundles with a single slash command.
+    Plugin marketplace for Claude Code. Conversion script for 10 other tools. No manual file management.
 
 -   :material-puzzle:{ .lg .middle } **Self-contained**
 
     ---
 
-    Each skill is independent. No cross-dependencies, no conflicts, works in isolation.
+    Each skill is independent. No cross-dependencies, no conflicts. Install one or all — they work in isolation.
 
 -   :material-devices:{ .lg .middle } **Multi-platform**
 
     ---
 
-    Works natively with Claude Code, OpenAI Codex, and OpenClaw — same skills, any agent.
+    Native support for 11 AI coding tools. Write once, convert to any tool's format automatically.
 
 -   :material-check-decagram:{ .lg .middle } **Production-grade**
 
     ---
 
-    Battle-tested workflows, not generic advice. Each skill saves 40%+ time on domain tasks.
+    Structured workflows with validation checkpoints, not generic advice. Each skill covers end-to-end domain processes.
 
 </div>
 
@@ -181,13 +251,37 @@ hide:
 
 ## Quick Install
 
-```bash
-# Add the marketplace
-/plugin marketplace add alirezarezvani/claude-skills
+=== "Claude Code"
 
-# Install any skill bundle
-/plugin install engineering-skills@claude-code-skills
-```
+    ```bash
+    # Add the marketplace
+    /plugin marketplace add alirezarezvani/claude-skills
+
+    # Install any skill bundle
+    /plugin install engineering-skills@claude-code-skills
+    ```
+
+=== "OpenAI Codex"
+
+    ```bash
+    npx agent-skills-cli add alirezarezvani/claude-skills --agent codex
+    ```
+
+=== "Gemini CLI"
+
+    ```bash
+    git clone https://github.com/alirezarezvani/claude-skills.git
+    cd claude-skills && ./scripts/gemini-install.sh
+    ```
+
+=== "Cursor / Windsurf / Aider"
+
+    ```bash
+    git clone https://github.com/alirezarezvani/claude-skills.git
+    cd claude-skills
+    ./scripts/convert.sh --tool cursor    # or windsurf, aider
+    ./scripts/install.sh --tool cursor --target /path/to/project
+    ```
 
 [Full Install Guide](getting-started.md){ .md-button .md-button--primary }
-[View on GitHub :fontawesome-brands-github:](https://github.com/alirezarezvani/claude-skills){ .md-button }
+[Multi-Tool Setup](integrations.md){ .md-button }

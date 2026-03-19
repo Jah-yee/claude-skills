@@ -1,16 +1,20 @@
 ---
-title: "Smart Test Reporting"
-description: "Smart Test Reporting - Claude Code skill from the Engineering - Core domain."
+title: "Smart Test Reporting — Agent Skill & Codex Plugin"
+description: "Generate test report. Use when user says 'test report', 'results summary', 'test status', 'show results', 'test dashboard', or 'how did tests go'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Smart Test Reporting
 
-**Domain:** Engineering - Core | **Skill:** `report` | **Source:** [`engineering-team/playwright-pro/skills/report/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/report/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `report`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/report/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Smart Test Reporting
 
 Generate test reports that plug into the user's existing workflow. Zero new tools.
 

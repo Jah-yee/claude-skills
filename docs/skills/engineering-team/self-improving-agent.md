@@ -1,16 +1,20 @@
 ---
-title: "Self-Improving Agent"
-description: "Self-Improving Agent - Claude Code skill from the Engineering - Core domain."
+title: "Self-Improving Agent — Agent Skill & Codex Plugin"
+description: "Curate Claude Code's auto-memory into durable project knowledge. Analyze MEMORY.md for patterns, promote proven learnings to CLAUDE.md and."
 ---
 
 # Self-Improving Agent
 
-**Domain:** Engineering - Core | **Skill:** `self-improving-agent` | **Source:** [`engineering-team/self-improving-agent/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `self-improving-agent`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Self-Improving Agent
 
 > Auto-memory captures. This plugin curates.
 
@@ -166,4 +170,4 @@ Monitors command output for errors. When detected, appends a structured entry to
 
 - [Claude Code Memory Docs](https://code.claude.com/docs/en/memory)
 - [pskoett/self-improving-agent](https://clawhub.ai/pskoett/self-improving-agent) — inspiration
-- [playwright-pro](../playwright-pro/) — sister plugin in this repo
+- [playwright-pro](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro) — sister plugin in this repo

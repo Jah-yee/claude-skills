@@ -1,16 +1,20 @@
 ---
-title: "BrowserStack Integration"
-description: "BrowserStack Integration - Claude Code skill from the Engineering - Core domain."
+title: "BrowserStack Integration — Agent Skill & Codex Plugin"
+description: "Run tests on BrowserStack. Use when user mentions 'browserstack', 'cross-browser', 'cloud testing', 'browser matrix', 'test on safari', 'test on. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # BrowserStack Integration
 
-**Domain:** Engineering - Core | **Skill:** `browserstack` | **Source:** [`engineering-team/playwright-pro/skills/browserstack/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/browserstack/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `browserstack`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/browserstack/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# BrowserStack Integration
 
 Run Playwright tests on BrowserStack's cloud grid for cross-browser and cross-device testing.
 

@@ -1,16 +1,20 @@
 ---
-title: "Customer Success Manager"
-description: "Customer Success Manager - Claude Code skill from the Business & Growth domain."
+title: "Customer Success Manager — Agent Skill for Growth"
+description: "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Customer Success Manager
 
-**Domain:** Business & Growth | **Skill:** `customer-success-manager` | **Source:** [`business-growth/customer-success-manager/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/customer-success-manager/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-trending-up: Business & Growth</span>
+<span class="meta-badge">:material-identifier: `customer-success-manager`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/customer-success-manager/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install business-growth-skills</code>
+</div>
 
-
-# Customer Success Manager
 
 Production-grade customer success analytics with multi-dimensional health scoring, churn risk prediction, and expansion opportunity identification. Three Python CLI tools provide deterministic, repeatable analysis using standard library only -- no external dependencies, no API calls, no ML models.
 

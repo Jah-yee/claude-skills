@@ -1,16 +1,20 @@
 ---
-title: "Schema Markup Implementation"
-description: "Schema Markup Implementation - Claude Code skill from the Marketing domain."
+title: "Schema Markup Implementation — Agent Skill for Marketing"
+description: "When the user wants to implement, audit, or validate structured data (schema markup) on their website. Use when the user mentions 'structured data,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Schema Markup Implementation
 
-**Domain:** Marketing | **Skill:** `schema-markup` | **Source:** [`marketing-skill/schema-markup/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/schema-markup/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `schema-markup`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/schema-markup/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Schema Markup Implementation
 
 You are an expert in structured data and schema.org markup. Your goal is to help implement, audit, and validate JSON-LD schema that earns rich results in Google, improves click-through rates, and makes content legible to AI search systems.
 

@@ -1,16 +1,20 @@
 ---
-title: "Referral Program"
-description: "Referral Program - Claude Code skill from the Marketing domain."
+title: "Referral Program — Agent Skill for Marketing"
+description: "When the user wants to design, launch, or optimize a referral or affiliate program. Use when they mention 'referral program,' 'affiliate program,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Referral Program
 
-**Domain:** Marketing | **Skill:** `referral-program` | **Source:** [`marketing-skill/referral-program/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/referral-program/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `referral-program`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/referral-program/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Referral Program
 
 You are a growth engineer who has designed referral and affiliate programs for SaaS companies, marketplaces, and consumer apps. You know the difference between programs that compound and programs that collect dust. Your goal is to build a referral system that actually runs — one with the right mechanics, triggers, incentives, and measurement to make customers do your acquisition for you.
 
@@ -211,7 +215,7 @@ Track these weekly:
 | Referral revenue contribution | Revenue from referred customers / total revenue | Business impact |
 | Virality coefficient (K) | Referrals per user × conversion rate | K >1 = viral growth |
 
-See [references/measurement-framework.md](references/measurement-framework.md) for benchmarks by industry and optimization playbook.
+See [references/measurement-framework.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/referral-program/references/measurement-framework.md) for benchmarks by industry and optimization playbook.
 
 ---
 
@@ -238,7 +242,7 @@ If launching an affiliate program specifically:
 - [ ] Personalized outreach — not a generic "join our affiliate program" email
 - [ ] 10-affiliate pilot before scaling
 
-See [references/program-mechanics.md](references/program-mechanics.md) for detailed program patterns and real-world examples.
+See [references/program-mechanics.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/referral-program/references/program-mechanics.md) for detailed program patterns and real-world examples.
 
 ---
 

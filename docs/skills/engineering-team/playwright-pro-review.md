@@ -1,16 +1,20 @@
 ---
-title: "Review Playwright Tests"
-description: "Review Playwright Tests - Claude Code skill from the Engineering - Core domain."
+title: "Review Playwright Tests — Agent Skill & Codex Plugin"
+description: "Review Playwright tests for quality. Use when user says 'review tests', 'check test quality', 'audit tests', 'improve tests', 'test code review', or. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Review Playwright Tests
 
-**Domain:** Engineering - Core | **Skill:** `review` | **Source:** [`engineering-team/playwright-pro/skills/review/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/review/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `review`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/review/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Review Playwright Tests
 
 Systematically review Playwright test files for anti-patterns, missed best practices, and coverage gaps.
 

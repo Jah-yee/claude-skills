@@ -12,6 +12,7 @@
 /git:cm         → Stage and commit (no push)
 /git:cp         → Stage, commit, and push
 /git:pr         → Create pull request
+/git:clean      → Delete merged branches (local + remote)
 ```
 
 ### Quality Gates
@@ -19,6 +20,7 @@
 ```
 /review         → Run local quality checks
 /security-scan  → Run security validation
+/update-docs    → Post-creation sync (CLI platforms, marketplace, docs, GitHub Pages)
 ```
 
 ---

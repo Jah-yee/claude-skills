@@ -1,16 +1,20 @@
 ---
-title: "Business & Growth Skills"
-description: "Business & Growth Skills - Claude Code skill from the Business & Growth domain."
+title: "Business & Growth Skills — Agent Skill for Growth"
+description: "4 business growth agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Customer success (health scoring, churn), sales."
 ---
 
 # Business & Growth Skills
 
-**Domain:** Business & Growth | **Skill:** `business-growth` | **Source:** [`business-growth/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-trending-up: Business & Growth</span>
+<span class="meta-badge">:material-identifier: `business-growth`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/business-growth/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install business-growth-skills</code>
+</div>
 
-
-# Business & Growth Skills
 
 4 production-ready skills for customer success, sales, and revenue operations.
 

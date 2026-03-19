@@ -1,16 +1,20 @@
 ---
-title: "Landing Page Generator"
-description: "Landing Page Generator - Claude Code skill from the Product domain."
+title: "Landing Page Generator — Agent Skill for Product Teams"
+description: "Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Landing Page Generator
 
-**Domain:** Product | **Skill:** `landing-page-generator` | **Source:** [`product-team/landing-page-generator/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/product-team/landing-page-generator/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-lightbulb-outline: Product</span>
+<span class="meta-badge">:material-identifier: `landing-page-generator`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/product-team/landing-page-generator/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install product-skills</code>
+</div>
 
-
-# Landing Page Generator
 
 Generate high-converting landing pages from a product description. Output complete Next.js/React components with multiple section variants, proven copy frameworks, SEO optimization, and performance-first patterns. Not lorem ipsum — actual copy that converts.
 
@@ -37,11 +41,16 @@ Generate high-converting landing pages from a product description. Output comple
 Follow these steps in order for every landing page request:
 
 1. **Gather inputs** — collect product name, tagline, audience, pain point, key benefit, pricing tiers, design style, and copy framework using the trigger format below. Ask only for missing fields.
-2. **Select design style** — map the user's choice (or infer from context) to one of the four Tailwind class sets in the Design Style Reference.
-3. **Apply copy framework** — write all headline and body copy using the chosen framework (PAS / AIDA / BAB) before generating components.
-4. **Generate sections in order** — Hero → Features → Pricing → FAQ → Testimonials → CTA → Footer. Skip sections not relevant to the product.
-5. **Validate against SEO checklist** — run through every item in the SEO Checklist before outputting final code. Fix any gaps inline.
-6. **Output final components** — deliver complete, copy-paste-ready TSX files with all Tailwind classes, SEO meta, and structured data included.
+2. **Analyze brand voice** (recommended) — if the user has existing brand content (website copy, blog posts, marketing materials), run it through `marketing-skill/content-production/scripts/brand_voice_analyzer.py` to get a voice profile (formality, tone, perspective). Use the profile to inform design style and copy framework selection:
+   - formal + professional → **enterprise** style, **AIDA** framework
+   - casual + friendly → **bold-startup** style, **BAB** framework
+   - professional + authoritative → **dark-saas** style, **PAS** framework
+   - casual + conversational → **clean-minimal** style, **BAB** framework
+3. **Select design style** — map the user's choice (or infer from brand voice analysis) to one of the four Tailwind class sets in the Design Style Reference.
+4. **Apply copy framework** — write all headline and body copy using the chosen framework (PAS / AIDA / BAB) before generating components. Match the voice profile's formality and tone throughout.
+5. **Generate sections in order** — Hero → Features → Pricing → FAQ → Testimonials → CTA → Footer. Skip sections not relevant to the product.
+6. **Validate against SEO checklist** — run through every item in the SEO Checklist before outputting final code. Fix any gaps inline.
+7. **Output final components** — deliver complete, copy-paste-ready TSX files with all Tailwind classes, SEO meta, and structured data included.
 
 ---
 
@@ -190,3 +199,11 @@ Inject `FAQPage` JSON-LD via `<script type="application/ld+json" dangerouslySetI
 - CTA copy too vague — "Get started" beats "Learn more"; "Start free trial" beats "Sign up"
 - Pricing page missing trust signals — add money-back guarantee and testimonials near CTA
 - No above-the-fold CTA on mobile — ensure button is visible without scrolling on 375px viewport
+
+---
+
+## Related Skills
+
+- **Brand Voice Analyzer** (`marketing-skill/content-production/scripts/brand_voice_analyzer.py`) — Run before generation to establish voice profile and ensure copy consistency
+- **UI Design System** (`product-team/ui-design-system/`) — Generate design tokens from brand color before building the page
+- **Competitive Teardown** (`product-team/competitive-teardown/`) — Competitive positioning informs landing page messaging and differentiation

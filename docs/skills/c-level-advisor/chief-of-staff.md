@@ -1,16 +1,20 @@
 ---
-title: "Chief of Staff"
-description: "Chief of Staff - Claude Code skill from the C-Level Advisory domain."
+title: "Chief of Staff — Agent Skill for Executives"
+description: "C-suite orchestration layer. Routes founder questions to the right advisor role(s), triggers multi-role board meetings for complex decisions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Chief of Staff
 
-**Domain:** C-Level Advisory | **Skill:** `chief-of-staff` | **Source:** [`c-level-advisor/chief-of-staff/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/chief-of-staff/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `chief-of-staff`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/chief-of-staff/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# Chief of Staff
 
 The orchestration layer between founder and C-suite. Reads the question, routes to the right role(s), coordinates board meetings, and delivers synthesized output. Loads company context for every interaction.
 

@@ -1,23 +1,43 @@
-# Claude Code Skills & Plugins
+# Claude Code Skills & Plugins — Agent Skills for Every Coding Tool
 
-**170 production-ready skills and plugins for Claude Code, OpenAI Codex, Gemini CLI, and OpenClaw** — reusable expertise bundles that transform AI coding agents into specialized professionals across engineering, product, marketing, compliance, and more.
+**205 production-ready Claude Code skills, plugins, and agent skills for 11 AI coding tools.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-170-brightgreen.svg)](#skills-overview)
-[![Agents](https://img.shields.io/badge/Agents-12-blue.svg)](#agents)
-[![Commands](https://img.shields.io/badge/Commands-5-orange.svg)](#commands)
-[![Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=flat)](https://github.com/alirezarezvani/claude-skills/stargazers)
-[![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1)](https://getskillcheck.com)
+The most comprehensive open-source library of Claude Code skills and agent plugins — also works with OpenAI Codex, Gemini CLI, Cursor, and 7 more coding agents. Reusable expertise packages covering engineering, DevOps, marketing, compliance, C-level advisory, and more.
 
-> ⭐ **2,500+ GitHub stars** — the most comprehensive open-source skill library for AI coding agents.
+**Works with:** Claude Code · OpenAI Codex · Gemini CLI · OpenClaw · Cursor · Aider · Windsurf · Kilo Code · OpenCode · Augment · Antigravity
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/Skills-205-brightgreen?style=for-the-badge)](#skills-overview)
+[![Agents](https://img.shields.io/badge/Agents-16-blue?style=for-the-badge)](#agents)
+[![Personas](https://img.shields.io/badge/Personas-3-purple?style=for-the-badge)](#personas)
+[![Commands](https://img.shields.io/badge/Commands-19-orange?style=for-the-badge)](#commands)
+[![Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=for-the-badge)](https://github.com/alirezarezvani/claude-skills/stargazers)
+[![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1?style=for-the-badge)](https://getskillcheck.com)
+
+> **5,200+ GitHub stars** — the most comprehensive open-source Claude Code skills & agent plugins library.
 
 ---
 
-## What Are Claude Code Skills?
+## What Are Claude Code Skills & Agent Plugins?
 
-Skills are modular instruction packages (plugins) that give AI coding agents domain expertise they don't have out of the box. Each skill includes a `SKILL.md` (instructions + workflows), Python CLI tools, and reference documentation — everything the agent needs to perform like a specialist.
+Claude Code skills (also called agent skills or coding agent plugins) are modular instruction packages that give AI coding agents domain expertise they don't have out of the box. Each skill includes:
 
-**One repo, four platforms:** Works natively as Claude Code plugins, OpenAI Codex CLI and agents, Gemini CLI skills, and OpenClaw skills. All 237 Python tools are stdlib-only and verified working.
+- **SKILL.md** — structured instructions, workflows, and decision frameworks
+- **Python tools** — 268 CLI scripts (all stdlib-only, zero pip installs)
+- **Reference docs** — templates, checklists, and domain-specific knowledge
+
+**One repo, eleven platforms.** Works natively as Claude Code plugins, Codex agent skills, Gemini CLI skills, and converts to 8 more tools via `scripts/convert.sh`. All 268 Python tools run anywhere Python runs.
+
+### Skills vs Agents vs Personas
+
+| | Skills | Agents | Personas |
+|---|---|---|---|
+| **Purpose** | How to execute a task | What task to do | Who is thinking |
+| **Scope** | Single domain | Single domain | Cross-domain |
+| **Voice** | Neutral | Professional | Personality-driven |
+| **Example** | "Follow these steps for SEO" | "Run a security audit" | "Think like a startup CTO" |
+
+All three work together. See [Orchestration](#orchestration) for how to combine them.
 
 ---
 
@@ -44,15 +64,15 @@ cd claude-skills
 /plugin marketplace add alirezarezvani/claude-skills
 
 # Install by domain
-/plugin install engineering-skills@claude-code-skills          # 23 core engineering
+/plugin install engineering-skills@claude-code-skills          # 24 core engineering
 /plugin install engineering-advanced-skills@claude-code-skills  # 25 POWERFUL-tier
-/plugin install product-skills@claude-code-skills               # 8 product skills
-/plugin install marketing-skills@claude-code-skills             # 42 marketing skills
+/plugin install product-skills@claude-code-skills               # 12 product skills
+/plugin install marketing-skills@claude-code-skills             # 43 marketing skills
 /plugin install ra-qm-skills@claude-code-skills                 # 12 regulatory/quality
 /plugin install pm-skills@claude-code-skills                    # 6 project management
 /plugin install c-level-skills@claude-code-skills               # 28 C-level advisory (full C-suite)
 /plugin install business-growth-skills@claude-code-skills       # 4 business & growth
-/plugin install finance-skills@claude-code-skills               # 1 finance
+/plugin install finance-skills@claude-code-skills               # 2 finance (analyst + SaaS metrics)
 
 # Or install individual skills
 /plugin install skill-security-auditor@claude-code-skills       # Security scanner
@@ -83,29 +103,116 @@ git clone https://github.com/alirezarezvani/claude-skills.git
 
 ---
 
+## Multi-Tool Support (New)
+
+**Convert all 156 skills to 7 AI coding tools** with a single script:
+
+| Tool | Format | Install |
+|------|--------|---------|
+| **Cursor** | `.mdc` rules | `./scripts/install.sh --tool cursor --target .` |
+| **Aider** | `CONVENTIONS.md` | `./scripts/install.sh --tool aider --target .` |
+| **Kilo Code** | `.kilocode/rules/` | `./scripts/install.sh --tool kilocode --target .` |
+| **Windsurf** | `.windsurf/skills/` | `./scripts/install.sh --tool windsurf --target .` |
+| **OpenCode** | `.opencode/skills/` | `./scripts/install.sh --tool opencode --target .` |
+| **Augment** | `.augment/rules/` | `./scripts/install.sh --tool augment --target .` |
+| **Antigravity** | `~/.gemini/antigravity/skills/` | `./scripts/install.sh --tool antigravity` |
+
+**How it works:**
+
+```bash
+# 1. Convert all skills to all tools (takes ~15 seconds)
+./scripts/convert.sh --tool all
+
+# 2. Install into your project (with confirmation)
+./scripts/install.sh --tool cursor --target /path/to/project
+
+# Or use --force to skip confirmation:
+./scripts/install.sh --tool aider --target . --force
+
+# 3. Verify
+find .cursor/rules -name "*.mdc" | wc -l  # Should show 156
+```
+
+**Each tool gets:**
+- ✅ All 156 skills converted to native format
+- ✅ Per-tool README with install/verify/update steps
+- ✅ Support for scripts, references, templates where applicable
+- ✅ Zero manual conversion work
+
+See [integrations/](integrations/) for tool-specific documentation and pre-generated outputs.
+
+---
+
 ## Skills Overview
 
-**171 skills across 9 domains:**
+**205 skills across 9 domains:**
 
 | Domain | Skills | Highlights | Details |
 |--------|--------|------------|---------|
-| **🔧 Engineering — Core** | 23 | Architecture, frontend, backend, fullstack, QA, DevOps, SecOps, AI/ML, data, Playwright, self-improving agent | [engineering-team/](engineering-team/) |
+| **🔧 Engineering — Core** | 26 | Architecture, frontend, backend, fullstack, QA, DevOps, SecOps, AI/ML, data, Playwright, self-improving agent, Google Workspace CLI, a11y audit | [engineering-team/](engineering-team/) |
 | **🎭 Playwright Pro** | 9+3 | Test generation, flaky fix, Cypress/Selenium migration, TestRail, BrowserStack, 55 templates | [engineering-team/playwright-pro](engineering-team/playwright-pro/) |
 | **🧠 Self-Improving Agent** | 5+2 | Auto-memory curation, pattern promotion, skill extraction, memory health | [engineering-team/self-improving-agent](engineering-team/self-improving-agent/) |
-| **⚡ Engineering — POWERFUL** | 26 | Agent designer, RAG architect, database designer, CI/CD builder, security auditor, MCP builder, translate-image | [engineering/](engineering/) |
-| **🎯 Product** | 8 | Product manager, agile PO, strategist, UX researcher, UI design, landing pages (TSX + Tailwind), SaaS scaffolder | [product-team/](product-team/) |
-| **📣 Marketing** | 42 | 7 pods: Content (8), SEO (5), CRO (6), Channels (5), Growth (4), Intelligence (4), Sales (2) + context foundation + orchestration router. 27 Python tools. | [marketing-skill/](marketing-skill/) |
+| **⚡ Engineering — POWERFUL** | 30 | Agent designer, RAG architect, database designer, CI/CD builder, security auditor, MCP builder, AgentHub, Helm charts, Terraform | [engineering/](engineering/) |
+| **🎯 Product** | 14 | Product manager, agile PO, strategist, UX researcher, UI design, landing pages, SaaS scaffolder, analytics, experiment designer, discovery, roadmap communicator, code-to-prd | [product-team/](product-team/) |
+| **📣 Marketing** | 43 | 7 pods: Content (8), SEO (5), CRO (6), Channels (6), Growth (4), Intelligence (4), Sales (2) + context foundation + orchestration router. 32 Python tools. | [marketing-skill/](marketing-skill/) |
 | **📋 Project Management** | 6 | Senior PM, scrum master, Jira, Confluence, Atlassian admin, templates | [project-management/](project-management/) |
 | **🏥 Regulatory & QM** | 12 | ISO 13485, MDR 2017/745, FDA, ISO 27001, GDPR, CAPA, risk management | [ra-qm-team/](ra-qm-team/) |
 | **💼 C-Level Advisory** | 28 | Full C-suite (10 roles) + orchestration + board meetings + culture & collaboration | [c-level-advisor/](c-level-advisor/) |
 | **📈 Business & Growth** | 4 | Customer success, sales engineer, revenue ops, contracts & proposals | [business-growth/](business-growth/) |
-| **💰 Finance** | 1 | Financial analyst (DCF, budgeting, forecasting) | [finance/](finance/) |
+| **💰 Finance** | 2 | Financial analyst (DCF, budgeting, forecasting), SaaS metrics coach (ARR, MRR, churn, LTV, CAC) | [finance/](finance/) |
 
 ---
 
-## ⚡ POWERFUL Tier
+## Personas
 
-26 advanced skills with deep, production-grade capabilities:
+Pre-configured agent identities with curated skill loadouts, workflows, and distinct communication styles. Personas go beyond "use these skills" — they define how an agent thinks, prioritizes, and communicates.
+
+| Persona | Domain | Best For |
+|---------|--------|----------|
+| [**Startup CTO**](agents/personas/startup-cto.md) | Engineering + Strategy | Architecture decisions, tech stack selection, team building, technical due diligence |
+| [**Growth Marketer**](agents/personas/growth-marketer.md) | Marketing + Growth | Content-led growth, launch strategy, channel optimization, bootstrapped marketing |
+| [**Solo Founder**](agents/personas/solo-founder.md) | Cross-domain | One-person startups, side projects, MVP building, wearing all hats |
+
+**Usage:**
+```bash
+# Claude Code
+cp agents/personas/startup-cto.md ~/.claude/agents/
+
+# Any tool
+./scripts/convert.sh --tool cursor  # Converts personas too
+```
+
+See [agents/personas/](agents/personas/) for details. Create your own with [TEMPLATE.md](agents/personas/TEMPLATE.md).
+
+---
+
+## Orchestration
+
+A lightweight protocol for coordinating personas, skills, and agents on work that crosses domain boundaries. No framework required.
+
+**Four patterns:**
+
+| Pattern | What | When |
+|---------|------|------|
+| **Solo Sprint** | Switch personas across project phases | Side projects, MVPs, solo founders |
+| **Domain Deep-Dive** | One persona + multiple stacked skills | Architecture reviews, compliance audits |
+| **Multi-Agent Handoff** | Personas review each other's output | High-stakes decisions, launch readiness |
+| **Skill Chain** | Sequential skills, no persona needed | Content pipelines, repeatable checklists |
+
+**Example: 6-week product launch**
+```
+Week 1-2: startup-cto + aws-solution-architect + senior-frontend → Build
+Week 3-4: growth-marketer + launch-strategy + copywriting + seo-audit → Prepare
+Week 5-6: solo-founder + email-sequence + analytics-tracking → Ship and iterate
+```
+
+See [orchestration/ORCHESTRATION.md](orchestration/ORCHESTRATION.md) for the full protocol and examples.
+
+---
+
+## POWERFUL Tier
+
+25 advanced skills with deep, production-grade capabilities:
 
 | Skill | What It Does |
 |-------|-------------|
@@ -127,7 +234,6 @@ git clone https://github.com/alirezarezvani/claude-skills.git
 | **performance-profiler** | Node/Python/Go profiling, bundle analysis, load testing |
 | **monorepo-navigator** | Turborepo/Nx/pnpm workspace management & impact analysis |
 | **changelog-generator** | Conventional commits → structured changelogs |
-| **translate-image** | AI image translation, OCR, text removal — 130+ languages |
 | **codebase-onboarding** | Auto-generate onboarding docs from codebase analysis |
 | **runbook-generator** | Codebase → operational runbooks with commands |
 | **git-worktree-manager** | Parallel dev with port isolation, env sync |
@@ -190,9 +296,12 @@ for MDR Annex II compliance gaps.
 
 ## Python Analysis Tools
 
-237 CLI tools ship with the skills (all verified, stdlib-only):
+254 CLI tools ship with the skills (all verified, stdlib-only):
 
 ```bash
+# SaaS health check
+python3 finance/saas-metrics-coach/scripts/metrics_calculator.py --mrr 80000 --customers 200 --churned 3 --json
+
 # Brand voice analysis
 python3 marketing-skill/content-production/scripts/brand_voice_analyzer.py article.txt
 
@@ -226,14 +335,14 @@ python3 product-team/landing-page-generator/scripts/landing_page_scaffolder.py c
 **How do I install Claude Code plugins?**
 Add the marketplace with `/plugin marketplace add alirezarezvani/claude-skills`, then install any skill bundle with `/plugin install <name>@claude-code-skills`.
 
-**Do these skills work with OpenAI Codex?**
-Yes. Skills work natively with Claude Code, OpenAI Codex, Gemini CLI, and OpenClaw. See Quick Install above.
+**Do these skills work with OpenAI Codex / Cursor / Windsurf / Aider?**
+Yes. Skills work natively with 11 tools: Claude Code, OpenAI Codex, Gemini CLI, OpenClaw, Cursor, Aider, Windsurf, Kilo Code, OpenCode, Augment, and Antigravity. Run `./scripts/convert.sh --tool all` to convert for all tools, then install with `./scripts/install.sh --tool <name>`. See [Multi-Tool Integrations](https://alirezarezvani.github.io/claude-skills/integrations/) for details.
 
 **Will updating break my installation?**
 No. We follow semantic versioning and maintain backward compatibility within patch releases. Existing script arguments, plugin source paths, and SKILL.md structures are never changed in patch versions. See the [CHANGELOG](CHANGELOG.md) for details on each release.
 
 **Are the Python tools dependency-free?**
-Yes. All 237 Python CLI tools use the standard library only — zero pip installs required. Every script is verified to run with `--help`.
+Yes. All 254 Python CLI tools use the standard library only — zero pip installs required. Every script is verified to run with `--help`.
 
 **How do I create my own Claude Code skill?**
 Each skill is a folder with a `SKILL.md` (frontmatter + instructions), optional `scripts/`, `references/`, and `assets/`. See the [Skills & Agents Factory](https://github.com/alirezarezvani/claude-code-skills-agents-factory) for a step-by-step guide.

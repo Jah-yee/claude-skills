@@ -1,18 +1,19 @@
 ---
-title: "Skill Tester"
-description: "Skill Tester - Claude Code skill from the Engineering - POWERFUL domain."
+title: "Skill Tester — Agent Skill for Codex & OpenClaw"
+description: "Skill Tester. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Skill Tester
 
-**Domain:** Engineering - POWERFUL | **Skill:** `skill-tester` | **Source:** [`engineering/skill-tester/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skill-tester/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `skill-tester`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/skill-tester/SKILL.md">Source</a></span>
+</div>
 
----
-
-
-# Skill Tester
-
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
 **Name**: skill-tester
 **Tier**: POWERFUL

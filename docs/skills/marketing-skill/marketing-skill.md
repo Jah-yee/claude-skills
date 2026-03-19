@@ -1,16 +1,20 @@
 ---
-title: "Marketing Skills Division"
-description: "Marketing Skills Division - Claude Code skill from the Marketing domain."
+title: "Marketing Skills Division — Agent Skill for Marketing"
+description: "42 marketing agent skills and plugins for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw, and 6 more coding agents. 7 pods: content, SEO, CRO."
 ---
 
 # Marketing Skills Division
 
-**Domain:** Marketing | **Skill:** `marketing-skill` | **Source:** [`marketing-skill/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `marketing-skill`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Marketing Skills Division
 
 42 production-ready marketing skills organized into 7 specialist pods with a context foundation and orchestration layer.
 

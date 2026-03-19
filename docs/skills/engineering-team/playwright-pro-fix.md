@@ -1,16 +1,20 @@
 ---
-title: "Fix Failing or Flaky Tests"
-description: "Fix Failing or Flaky Tests - Claude Code skill from the Engineering - Core domain."
+title: "Fix Failing or Flaky Tests — Agent Skill & Codex Plugin"
+description: "Fix failing or flaky Playwright tests. Use when user says 'fix test', 'flaky test', 'test failing', 'debug test', 'test broken', 'test passes. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Fix Failing or Flaky Tests
 
-**Domain:** Engineering - Core | **Skill:** `fix` | **Source:** [`engineering-team/playwright-pro/skills/fix/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/fix/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `fix`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/playwright-pro/skills/fix/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Fix Failing or Flaky Tests
 
 Diagnose and fix a Playwright test that fails or passes intermittently using a systematic taxonomy.
 

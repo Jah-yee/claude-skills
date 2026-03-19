@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **comprehensive skills library** for Claude AI and Claude Code - reusable, production-ready skill packages that bundle domain expertise, best practices, analysis tools, and strategic frameworks. The repository provides modular skills that teams can download and use directly in their workflows.
 
-**Current Scope:** 170 production-ready skills across 9 domains with 210+ Python automation tools, 310+ reference guides, 12 agents, and 5 slash commands.
+**Current Scope:** 205 production-ready skills across 9 domains with 268 Python automation tools, 384 reference guides, 16 agents, and 19 slash commands.
 
 **Key Distinction**: This is NOT a traditional application. It's a library of skill packages meant to be extracted and deployed by users into their own Claude workflows.
 
@@ -25,7 +25,7 @@ This repository uses **modular documentation**. For domain-specific guidance, se
 | **Project Management** | [project-management/CLAUDE.md](project-management/CLAUDE.md) | Atlassian MCP, Jira/Confluence integration |
 | **RA/QM Compliance** | [ra-qm-team/CLAUDE.md](ra-qm-team/CLAUDE.md) | ISO 13485, MDR, FDA, GDPR, ISO 27001 compliance |
 | **Business & Growth** | [business-growth/CLAUDE.md](business-growth/CLAUDE.md) | Customer success, sales engineering, revenue operations |
-| **Finance** | [finance/CLAUDE.md](finance/CLAUDE.md) | Financial analysis, DCF valuation, budgeting, forecasting |
+| **Finance** | [finance/CLAUDE.md](finance/CLAUDE.md) | Financial analysis, DCF valuation, budgeting, forecasting, SaaS metrics |
 | **Standards Library** | [standards/CLAUDE.md](standards/CLAUDE.md) | Communication, quality, git, security standards |
 | **Templates** | [templates/CLAUDE.md](templates/CLAUDE.md) | Template system usage |
 
@@ -36,17 +36,17 @@ This repository uses **modular documentation**. For domain-specific guidance, se
 ```
 claude-code-skills/
 ├── .claude-plugin/            # Plugin registry (marketplace.json)
-├── agents/                    # 12 cs-* prefixed agents across all domains
-├── commands/                  # 5 slash commands (changelog, tdd, tech-debt, etc.)
-├── engineering-team/          # 23 core engineering skills + Playwright Pro + Self-Improving Agent
-├── engineering/               # 25 POWERFUL-tier advanced skills
-├── product-team/              # 8 product skills + Python tools
-├── marketing-skill/           # 42 marketing skills (7 pods) + Python tools
+├── agents/                    # 16 cs-* prefixed agents across all domains
+├── commands/                  # 19 slash commands (changelog, tdd, saas-health, prd, code-to-prd, plugin-audit, sprint-plan, etc.)
+├── engineering-team/          # 26 core engineering skills + Playwright Pro + Self-Improving Agent + A11y Audit
+├── engineering/               # 30 POWERFUL-tier advanced skills (incl. AgentHub)
+├── product-team/              # 13 product skills + Python tools
+├── marketing-skill/           # 43 marketing skills (7 pods) + Python tools
 ├── c-level-advisor/           # 28 C-level advisory skills (10 roles + orchestration)
 ├── project-management/        # 6 PM skills + Atlassian MCP
 ├── ra-qm-team/                # 12 RA/QM compliance skills
 ├── business-growth/           # 4 business & growth skills + Python tools
-├── finance/                   # 1 finance skill + Python tools
+├── finance/                   # 2 finance skills + Python tools
 ├── eval-workspace/            # Skill evaluation results (Tessl)
 ├── standards/                 # 5 standards library files
 ├── templates/                 # Reusable templates
@@ -148,11 +148,11 @@ See [standards/git/git-workflow-standards.md](standards/git/git-workflow-standar
 
 ## Roadmap
 
-**Phase 1-2 Complete:** 170 production-ready skills deployed across 9 domains
-- Engineering Core (23), Engineering POWERFUL (25), Product (8), Marketing (42), PM (6), C-Level (28), RA/QM (12), Business & Growth (4), Finance (1)
-- 210+ Python automation tools, 310+ reference guides, 12 agents, 5 commands
+**Phase 1-2 Complete:** 204 production-ready skills deployed across 9 domains
+- Engineering Core (26), Engineering POWERFUL (30), Product (14), Marketing (43), PM (6), C-Level (28), RA/QM (12), Business & Growth (4), Finance (2)
+- 268 Python automation tools, 384 reference guides, 16 agents, 19 commands
 - Complete enterprise coverage from engineering through regulatory compliance, sales, customer success, and finance
-- MkDocs Material docs site with 170+ indexed pages for SEO
+- MkDocs Material docs site with 210+ indexed pages for SEO
 
 See domain-specific roadmaps in each skill folder's README.md or roadmap files.
 
@@ -163,6 +163,17 @@ See domain-specific roadmaps in each skill folder's README.md or roadmap files.
 3. **Algorithm over AI** - Use deterministic analysis (code) vs LLM calls
 4. **Template-heavy** - Provide ready-to-use templates users customize
 5. **Platform-specific** - Specific best practices > generic advice
+
+## ClawHub Publishing Constraints
+
+This repository publishes skills to **ClawHub** (clawhub.com) as the distribution registry. The following rules are **non-negotiable**:
+
+1. **cs- prefix for slug conflicts only.** When a skill slug is already taken on ClawHub by another publisher, publish with the `cs-` prefix (e.g., `cs-copywriting`, `cs-seo-audit`). The `cs-` prefix applies **only on the ClawHub registry** — repo folder names, local skill names, and all other tools (Claude Code, Codex, Gemini CLI) remain unchanged.
+2. **Never rename repo folders or local skill names** to match ClawHub slugs. The repo is the source of truth.
+3. **No paid/commercial service dependencies.** Skills must not require paid third-party API keys or commercial services unless provided by the project itself. Free-tier APIs and BYOK (bring-your-own-key) patterns are acceptable.
+4. **Rate limit: 5 new skills per hour** on ClawHub. Batch publishes must respect this. Use the drip timer (`clawhub-drip.timer`) for bulk operations.
+5. **plugin.json schema** — ONLY these fields: `name`, `description`, `version`, `author`, `homepage`, `repository`, `license`, `skills: "./"`. No extra fields.
+6. **Version follows repo versioning.** ClawHub package versions must match the repo release version (currently v2.1.2+).
 
 ## Anti-Patterns to Avoid
 
@@ -190,6 +201,6 @@ See domain-specific roadmaps in each skill folder's README.md or roadmap files.
 
 ---
 
-**Last Updated:** March 10, 2026
+**Last Updated:** March 11, 2026
 **Version:** v2.1.2
-**Status:** 170 skills deployed across 9 domains, 18 marketplace plugins, docs site live
+**Status:** 205 skills deployed across 9 domains, 28 marketplace plugins, docs site live

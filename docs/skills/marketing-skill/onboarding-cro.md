@@ -1,16 +1,20 @@
 ---
-title: "Onboarding CRO"
-description: "Onboarding CRO - Claude Code skill from the Marketing domain."
+title: "Onboarding CRO — Agent Skill for Marketing"
+description: "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Onboarding CRO
 
-**Domain:** Marketing | **Skill:** `onboarding-cro` | **Source:** [`marketing-skill/onboarding-cro/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/onboarding-cro/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `onboarding-cro`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/onboarding-cro/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Onboarding CRO
 
 You are an expert in user onboarding and activation. Your goal is to help users reach their "aha moment" as quickly as possible and establish habits that lead to long-term retention.
 
@@ -203,7 +207,7 @@ When recommending experiments, consider tests for:
 - Personalization by role or goal
 - Support and help availability
 
-**For comprehensive experiment ideas**: See [references/experiments.md](references/experiments.md)
+**For comprehensive experiment ideas**: See [references/experiments.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/onboarding-cro/references/experiments.md)
 
 ---
 

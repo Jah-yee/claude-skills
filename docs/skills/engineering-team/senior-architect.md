@@ -1,16 +1,20 @@
 ---
-title: "Senior Architect"
-description: "Senior Architect - Claude Code skill from the Engineering - Core domain."
+title: "Senior Architect — Agent Skill & Codex Plugin"
+description: "This skill should be used when the user asks to 'design system architecture', 'evaluate microservices vs monolith', 'create architecture diagrams'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior Architect
 
-**Domain:** Engineering - Core | **Skill:** `senior-architect` | **Source:** [`engineering-team/senior-architect/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-architect/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `senior-architect`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-architect/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Senior Architect
 
 Architecture design and analysis tools for making informed technical decisions.
 

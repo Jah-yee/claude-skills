@@ -1,16 +1,20 @@
 ---
-title: "Marketing Demand & Acquisition"
-description: "Marketing Demand & Acquisition - Claude Code skill from the Marketing domain."
+title: "Marketing Demand & Acquisition — Agent Skill for Marketing"
+description: "Creates demand generation campaigns, optimizes paid ad spend across LinkedIn, Google, and Meta, develops SEO strategies, and structures partnership. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Marketing Demand & Acquisition
 
-**Domain:** Marketing | **Skill:** `marketing-demand-acquisition` | **Source:** [`marketing-skill/marketing-demand-acquisition/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `marketing-demand-acquisition`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Marketing Demand & Acquisition
 
 Acquisition playbook for Series A+ startups scaling internationally (EU/US/Canada) with hybrid PLG/Sales-Led motion.
 
@@ -109,7 +113,7 @@ utm_term={keyword}         // [paid search only]
 | Meta | $5k | 8 |
 | Partnerships | $3k | 5 |
 
-See [campaign-templates.md](references/campaign-templates.md) for detailed structures.
+See [campaign-templates.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/campaign-templates.md) for detailed structures.
 
 ---
 
@@ -182,7 +186,7 @@ See [campaign-templates.md](references/campaign-templates.md) for detailed struc
 4. Recruit through outbound, inbound, events
 5. **Validation:** Test affiliate link tracks through to conversion
 
-See [international-playbooks.md](references/international-playbooks.md) for regional tactics.
+See [international-playbooks.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/international-playbooks.md) for regional tactics.
 
 ---
 
@@ -214,7 +218,7 @@ See [international-playbooks.md](references/international-playbooks.md) for regi
 | Blended CAC | <$300 |
 | Pipeline Velocity | <60 days |
 
-See [attribution-guide.md](references/attribution-guide.md) for detailed setup.
+See [attribution-guide.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/attribution-guide.md) for detailed setup.
 
 ---
 
@@ -233,7 +237,7 @@ See [attribution-guide.md](references/attribution-guide.md) for detailed setup.
 - Attribution reporting (multi-touch)
 - Partner lead routing
 
-See [hubspot-workflows.md](references/hubspot-workflows.md) for workflow templates.
+See [hubspot-workflows.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/hubspot-workflows.md) for workflow templates.
 
 ---
 
@@ -241,10 +245,10 @@ See [hubspot-workflows.md](references/hubspot-workflows.md) for workflow templat
 
 | File | Content |
 |------|---------|
-| [hubspot-workflows.md](references/hubspot-workflows.md) | Lead scoring, nurture, assignment workflows |
-| [campaign-templates.md](references/campaign-templates.md) | LinkedIn, Google, Meta campaign structures |
-| [international-playbooks.md](references/international-playbooks.md) | EU, US, Canada market tactics |
-| [attribution-guide.md](references/attribution-guide.md) | Multi-touch attribution, dashboards, A/B testing |
+| [hubspot-workflows.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/hubspot-workflows.md) | Lead scoring, nurture, assignment workflows |
+| [campaign-templates.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/campaign-templates.md) | LinkedIn, Google, Meta campaign structures |
+| [international-playbooks.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/international-playbooks.md) | EU, US, Canada market tactics |
+| [attribution-guide.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/marketing-demand-acquisition/references/attribution-guide.md) | Multi-touch attribution, dashboards, A/B testing |
 
 ---
 

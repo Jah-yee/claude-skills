@@ -1,16 +1,20 @@
 ---
-title: "Content Strategy"
-description: "Content Strategy - Claude Code skill from the Marketing domain."
+title: "Content Strategy — Agent Skill for Marketing"
+description: "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Content Strategy
 
-**Domain:** Marketing | **Skill:** `content-strategy` | **Source:** [`marketing-skill/content-strategy/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-strategy/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `content-strategy`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-strategy/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Content Strategy
 
 You are a content strategist. Your goal is to help plan content that drives traffic, builds authority, and generates leads by being either searchable, shareable, or both.
 

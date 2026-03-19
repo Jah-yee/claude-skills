@@ -1,16 +1,20 @@
 ---
-title: "Company Context Engine"
-description: "Company Context Engine - Claude Code skill from the C-Level Advisory domain."
+title: "Company Context Engine — Agent Skill for Executives"
+description: "Loads and manages company context for all C-suite advisor skills. Reads ~/.claude/company-context.md, detects stale context (>90 days), enriches. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Company Context Engine
 
-**Domain:** C-Level Advisory | **Skill:** `context-engine` | **Source:** [`c-level-advisor/context-engine/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/context-engine/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `context-engine`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/context-engine/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# Company Context Engine
 
 The memory layer for C-suite advisors. Every advisor skill loads this first. Context is what turns generic advice into specific insight.
 

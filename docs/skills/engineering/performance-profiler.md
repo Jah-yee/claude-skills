@@ -1,16 +1,20 @@
 ---
-title: "Performance Profiler"
-description: "Performance Profiler - Claude Code skill from the Engineering - POWERFUL domain."
+title: "Performance Profiler — Agent Skill for Codex & OpenClaw"
+description: "Performance Profiler. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Performance Profiler
 
-**Domain:** Engineering - POWERFUL | **Skill:** `performance-profiler` | **Source:** [`engineering/performance-profiler/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/performance-profiler/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `performance-profiler`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/performance-profiler/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
-
-# Performance Profiler
 
 **Tier:** POWERFUL  
 **Category:** Engineering  
@@ -41,6 +45,21 @@ Systematic performance profiling for Node.js, Python, and Go applications. Ident
 - Bundle size increased after adding dependencies
 - Preparing for a traffic spike (load test before launch)
 - Database queries taking >100ms
+
+---
+
+## Quick Start
+
+```bash
+# Analyze a project for performance risk indicators
+python3 scripts/performance_profiler.py /path/to/project
+
+# JSON output for CI integration
+python3 scripts/performance_profiler.py /path/to/project --json
+
+# Custom large-file threshold
+python3 scripts/performance_profiler.py /path/to/project --large-file-threshold-kb 256
+```
 
 ---
 

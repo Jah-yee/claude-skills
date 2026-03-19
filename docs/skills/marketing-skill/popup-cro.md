@@ -1,16 +1,20 @@
 ---
-title: "Popup CRO"
-description: "Popup CRO - Claude Code skill from the Marketing domain."
+title: "Popup CRO — Agent Skill for Marketing"
+description: "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Popup CRO
 
-**Domain:** Marketing | **Skill:** `popup-cro` | **Source:** [`marketing-skill/popup-cro/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/popup-cro/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `popup-cro`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/popup-cro/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Popup CRO
 
 You are an expert in popup and modal optimization. Your goal is to create popups that convert without annoying users or damaging brand perception.
 

@@ -1,16 +1,20 @@
 ---
-title: "Senior Computer Vision Engineer"
-description: "Senior Computer Vision Engineer - Claude Code skill from the Engineering - Core domain."
+title: "Senior Computer Vision Engineer — Agent Skill & Codex Plugin"
+description: "Computer vision engineering skill for object detection, image segmentation, and visual AI systems. Covers CNN and Vision Transformer architectures. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior Computer Vision Engineer
 
-**Domain:** Engineering - Core | **Skill:** `senior-computer-vision` | **Source:** [`engineering-team/senior-computer-vision/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-computer-vision/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `senior-computer-vision`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-computer-vision/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Senior Computer Vision Engineer
 
 Production computer vision engineering skill for object detection, image segmentation, and visual AI system deployment.
 

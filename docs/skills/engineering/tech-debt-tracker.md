@@ -1,16 +1,20 @@
 ---
-title: "Tech Debt Tracker"
-description: "Tech Debt Tracker - Claude Code skill from the Engineering - POWERFUL domain."
+title: "Tech Debt Tracker — Agent Skill for Codex & OpenClaw"
+description: "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Tech Debt Tracker
 
-**Domain:** Engineering - POWERFUL | **Skill:** `tech-debt-tracker` | **Source:** [`engineering/tech-debt-tracker/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/tech-debt-tracker/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `tech-debt-tracker`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/tech-debt-tracker/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
-
-# Tech Debt Tracker
 
 **Tier**: POWERFUL 🔥  
 **Category**: Engineering Process Automation  

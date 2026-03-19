@@ -1,16 +1,20 @@
 ---
-title: "/si:review — Analyze Auto-Memory"
-description: "/si:review — Analyze Auto-Memory - Claude Code skill from the Engineering - Core domain."
+title: "/si:review — Analyze Auto-Memory — Agent Skill & Codex Plugin"
+description: "Analyze auto-memory for promotion candidates, stale entries, consolidation opportunities, and health metrics. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /si:review — Analyze Auto-Memory
 
-**Domain:** Engineering - Core | **Skill:** `review` | **Source:** [`engineering-team/self-improving-agent/skills/review/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/review/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `review`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/review/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# /si:review — Analyze Auto-Memory
 
 Performs a comprehensive audit of Claude Code's auto-memory and produces actionable recommendations.
 

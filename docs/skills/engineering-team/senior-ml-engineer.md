@@ -1,16 +1,20 @@
 ---
-title: "Senior ML Engineer"
-description: "Senior ML Engineer - Claude Code skill from the Engineering - Core domain."
+title: "Senior ML Engineer — Agent Skill & Codex Plugin"
+description: "ML engineering skill for productionizing models, building MLOps pipelines, and integrating LLMs. Covers model deployment, feature stores, drift. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Senior ML Engineer
 
-**Domain:** Engineering - Core | **Skill:** `senior-ml-engineer` | **Source:** [`engineering-team/senior-ml-engineer/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-ml-engineer/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `senior-ml-engineer`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/senior-ml-engineer/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# Senior ML Engineer
 
 Production ML engineering patterns for model deployment, MLOps infrastructure, and LLM integration.
 

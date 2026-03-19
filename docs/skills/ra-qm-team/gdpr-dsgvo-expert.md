@@ -1,16 +1,20 @@
 ---
-title: "GDPR/DSGVO Expert"
-description: "GDPR/DSGVO Expert - Claude Code skill from the Regulatory & Quality domain."
+title: "GDPR/DSGVO Expert — Agent Skill for Compliance"
+description: "GDPR and German DSGVO compliance automation. Scans codebases for privacy risks, generates DPIA documentation, tracks data subject rights requests. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # GDPR/DSGVO Expert
 
-**Domain:** Regulatory & Quality | **Skill:** `gdpr-dsgvo-expert` | **Source:** [`ra-qm-team/gdpr-dsgvo-expert/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/gdpr-dsgvo-expert/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-shield-check-outline: Regulatory & Quality</span>
+<span class="meta-badge">:material-identifier: `gdpr-dsgvo-expert`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/gdpr-dsgvo-expert/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install ra-qm-skills</code>
+</div>
 
-
-# GDPR/DSGVO Expert
 
 Tools and guidance for EU General Data Protection Regulation (GDPR) and German Bundesdatenschutzgesetz (BDSG) compliance.
 

@@ -1,16 +1,20 @@
 ---
-title: "Org Health Diagnostic"
-description: "Org Health Diagnostic - Claude Code skill from the C-Level Advisory domain."
+title: "Org Health Diagnostic — Agent Skill for Executives"
+description: "Cross-functional organizational health check combining signals from all C-suite roles. Scores 8 dimensions on a traffic-light scale with drill-down. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Org Health Diagnostic
 
-**Domain:** C-Level Advisory | **Skill:** `org-health-diagnostic` | **Source:** [`c-level-advisor/org-health-diagnostic/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/org-health-diagnostic/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `org-health-diagnostic`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/org-health-diagnostic/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# Org Health Diagnostic
 
 Eight dimensions. Traffic lights. Real benchmarks. Surfaces the problems you don't know you have.
 

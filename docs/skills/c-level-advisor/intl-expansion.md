@@ -1,16 +1,20 @@
 ---
-title: "International Expansion"
-description: "International Expansion - Claude Code skill from the C-Level Advisory domain."
+title: "International Expansion — Agent Skill for Executives"
+description: "International market expansion strategy. Market selection, entry modes, localization, regulatory compliance, and go-to-market by region. Use when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # International Expansion
 
-**Domain:** C-Level Advisory | **Skill:** `intl-expansion` | **Source:** [`c-level-advisor/intl-expansion/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/intl-expansion/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `intl-expansion`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/intl-expansion/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# International Expansion
 
 Frameworks for expanding into new markets: selection, entry, localization, and execution.
 

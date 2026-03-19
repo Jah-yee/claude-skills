@@ -1,26 +1,30 @@
 ---
-title: "Content Creator → Redirected"
-description: "Content Creator → Redirected - Claude Code skill from the Marketing domain."
+title: "Content Creator → Redirected — Agent Skill for Marketing"
+description: "Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Content Creator → Redirected
 
-**Domain:** Marketing | **Skill:** `content-creator` | **Source:** [`marketing-skill/content-creator/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-creator/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `content-creator`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-creator/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Content Creator → Redirected
 
 > **This skill has been split into two specialist skills.** Use the one that matches your intent:
 
 | You want to... | Use this instead |
 |----------------|-----------------|
-| **Write** a blog post, article, or guide | [content-production](../content-production/) |
-| **Plan** what content to create, topic clusters, calendar | [content-strategy](../content-strategy/) |
-| **Analyze brand voice** | [content-production](../content-production/) (includes `brand_voice_analyzer.py`) |
-| **Optimize SEO** for existing content | [content-production](../content-production/) (includes `seo_optimizer.py`) |
-| **Create social media content** | [social-content](../social-content/) |
+| **Write** a blog post, article, or guide | [content-production](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production) |
+| **Plan** what content to create, topic clusters, calendar | [content-strategy](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-strategy) |
+| **Analyze brand voice** | [content-production](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production) (includes `brand_voice_analyzer.py`) |
+| **Optimize SEO** for existing content | [content-production](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/content-production) (includes `seo_optimizer.py`) |
+| **Create social media content** | [social-content](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content) |
 
 ## Why the Change
 

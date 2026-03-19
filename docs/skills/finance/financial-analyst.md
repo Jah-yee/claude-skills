@@ -1,16 +1,20 @@
 ---
-title: "Financial Analyst Skill"
-description: "Financial Analyst Skill - Claude Code skill from the Finance domain."
+title: "Financial Analyst Skill — Agent Skill for Finance"
+description: "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Financial Analyst Skill
 
-**Domain:** Finance | **Skill:** `financial-analyst` | **Source:** [`finance/financial-analyst/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/finance/financial-analyst/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-calculator-variant: Finance</span>
+<span class="meta-badge">:material-identifier: `financial-analyst`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/finance/financial-analyst/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install finance-skills</code>
+</div>
 
-
-# Financial Analyst Skill
 
 ## Overview
 

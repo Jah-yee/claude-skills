@@ -1,16 +1,20 @@
 ---
-title: "MDR 2017/745 Specialist"
-description: "MDR 2017/745 Specialist - Claude Code skill from the Regulatory & Quality domain."
+title: "MDR 2017/745 Specialist — Agent Skill for Compliance"
+description: "EU MDR 2017/745 compliance specialist for medical device classification, technical documentation, clinical evidence, and post-market surveillance. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # MDR 2017/745 Specialist
 
-**Domain:** Regulatory & Quality | **Skill:** `mdr-745-specialist` | **Source:** [`ra-qm-team/mdr-745-specialist/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/mdr-745-specialist/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-shield-check-outline: Regulatory & Quality</span>
+<span class="meta-badge">:material-identifier: `mdr-745-specialist`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/ra-qm-team/mdr-745-specialist/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install ra-qm-skills</code>
+</div>
 
-
-# MDR 2017/745 Specialist
 
 EU MDR compliance patterns for medical device classification, technical documentation, and clinical evidence.
 

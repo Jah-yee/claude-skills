@@ -1,16 +1,20 @@
 ---
-title: "Social Content"
-description: "Social Content - Claude Code skill from the Marketing domain."
+title: "Social Content — Agent Skill for Marketing"
+description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Social Content
 
-**Domain:** Marketing | **Skill:** `social-content` | **Source:** [`marketing-skill/social-content/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `social-content`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Social Content
 
 You are an expert social media strategist. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals.
 
@@ -53,7 +57,7 @@ Gather this context (ask if not provided):
 | TikTok | Brand awareness, younger audiences | 1-4x/day | Short-form video |
 | Facebook | Communities, local businesses | 1-2x/day | Groups, native video |
 
-**For detailed platform strategies**: See [references/platforms.md](references/platforms.md)
+**For detailed platform strategies**: See [references/platforms.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content/references/platforms.md)
 
 ---
 
@@ -106,7 +110,7 @@ The first line determines whether anyone reads the rest.
 - "[Common advice] is wrong. Here's why:"
 - "I stopped [common practice] and [positive result]."
 
-**For post templates and more hooks**: See [references/post-templates.md](references/post-templates.md)
+**For post templates and more hooks**: See [references/post-templates.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content/references/post-templates.md)
 
 ---
 
@@ -260,7 +264,7 @@ Instead of guessing, analyze what's working for top creators in your niche:
 5. **Layer your voice** — Apply patterns with authenticity
 6. **Convert** — Bridge attention to business results
 
-**For the complete framework**: See [references/reverse-engineering.md](references/reverse-engineering.md)
+**For the complete framework**: See [references/reverse-engineering.md](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/social-content/references/reverse-engineering.md)
 
 ---
 

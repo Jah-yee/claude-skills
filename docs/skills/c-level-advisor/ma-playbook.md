@@ -1,16 +1,20 @@
 ---
-title: "M&A Playbook"
-description: "M&A Playbook - Claude Code skill from the C-Level Advisory domain."
+title: "M&A Playbook — Agent Skill for Executives"
+description: "M&A strategy for acquiring companies or being acquired. Due diligence, valuation, integration, and deal structure. Use when evaluating acquisitions. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # M&A Playbook
 
-**Domain:** C-Level Advisory | **Skill:** `ma-playbook` | **Source:** [`c-level-advisor/ma-playbook/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/ma-playbook/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `ma-playbook`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/ma-playbook/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# M&A Playbook
 
 Frameworks for both sides of M&A: acquiring companies and being acquired.
 

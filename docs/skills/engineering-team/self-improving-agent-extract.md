@@ -1,16 +1,20 @@
 ---
-title: "/si:extract — Create Skills from Patterns"
-description: "/si:extract — Create Skills from Patterns - Claude Code skill from the Engineering - Core domain."
+title: "/si:extract — Create Skills from Patterns — Agent Skill & Codex Plugin"
+description: "Turn a proven pattern or debugging solution into a standalone reusable skill with SKILL.md, reference docs, and examples. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /si:extract — Create Skills from Patterns
 
-**Domain:** Engineering - Core | **Skill:** `extract` | **Source:** [`engineering-team/self-improving-agent/skills/extract/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/extract/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `extract`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/extract/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# /si:extract — Create Skills from Patterns
 
 Transforms a recurring pattern or debugging solution into a standalone, portable skill that can be installed in any project.
 

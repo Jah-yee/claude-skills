@@ -1,16 +1,20 @@
 ---
-title: "AWS Solution Architect"
-description: "AWS Solution Architect - Claude Code skill from the Engineering - Core domain."
+title: "AWS Solution Architect — Agent Skill & Codex Plugin"
+description: "Design AWS architectures for startups using serverless patterns and IaC templates. Use when asked to design serverless architecture, create. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # AWS Solution Architect
 
-**Domain:** Engineering - Core | **Skill:** `aws-solution-architect` | **Source:** [`engineering-team/aws-solution-architect/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/aws-solution-architect/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `aws-solution-architect`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/aws-solution-architect/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# AWS Solution Architect
 
 Design scalable, cost-effective AWS architectures for startups with infrastructure-as-code templates.
 

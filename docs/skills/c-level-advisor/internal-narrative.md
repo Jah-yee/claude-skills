@@ -1,16 +1,20 @@
 ---
-title: "Internal Narrative Builder"
-description: "Internal Narrative Builder - Claude Code skill from the C-Level Advisory domain."
+title: "Internal Narrative Builder — Agent Skill for Executives"
+description: "Build and maintain one coherent company story across all audiences — employees, investors, customers, candidates, and partners. Detects narrative. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Internal Narrative Builder
 
-**Domain:** C-Level Advisory | **Skill:** `internal-narrative` | **Source:** [`c-level-advisor/internal-narrative/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/internal-narrative/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-account-tie: C-Level Advisory</span>
+<span class="meta-badge">:material-identifier: `internal-narrative`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/internal-narrative/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install c-level-skills</code>
+</div>
 
-
-# Internal Narrative Builder
 
 One company. Many audiences. Same truth — different lenses. Narrative inconsistency is trust erosion. This skill builds and maintains coherent communication across every stakeholder group.
 

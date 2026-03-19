@@ -1,16 +1,20 @@
 ---
-title: "/si:promote — Graduate Learnings to Rules"
-description: "/si:promote — Graduate Learnings to Rules - Claude Code skill from the Engineering - Core domain."
+title: "/si:promote — Graduate Learnings to Rules — Agent Skill & Codex Plugin"
+description: "Graduate a proven pattern from auto-memory (MEMORY.md) to CLAUDE.md or .claude/rules/ for permanent enforcement. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # /si:promote — Graduate Learnings to Rules
 
-**Domain:** Engineering - Core | **Skill:** `promote` | **Source:** [`engineering-team/self-improving-agent/skills/promote/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/promote/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-code-braces: Engineering - Core</span>
+<span class="meta-badge">:material-identifier: `promote`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/self-improving-agent/skills/promote/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-skills</code>
+</div>
 
-
-# /si:promote — Graduate Learnings to Rules
 
 Moves a proven pattern from Claude's auto-memory into the project's rule system, where it becomes an enforced instruction rather than a background note.
 

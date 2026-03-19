@@ -3,7 +3,7 @@
   "name": "claude-code-skills",
   "description": "Production-ready skill packages for AI agents - Marketing, Engineering, Product, C-Level, PM, and RA/QM",
   "repository": "https://github.com/alirezarezvani/claude-skills",
-  "total_skills": 149,
+  "total_skills": 165,
   "skills": [
     {
       "name": "contract-and-proposal-writer",
@@ -198,6 +198,12 @@
       "description": "Cascades strategy from boardroom to individual contributor. Detects and fixes misalignment between company goals and team execution. Covers strategy articulation, cascade mapping, orphan goal detection, silo identification, communication gap analysis, and realignment protocols. Use when teams are pulling in different directions, OKRs don't connect, departments optimize locally at company expense, or when user mentions alignment, strategy cascade, silo, conflicting OKRs, or strategy communication."
     },
     {
+      "name": "a11y-audit",
+      "source": "../../engineering-team/a11y-audit",
+      "category": "engineering",
+      "description": "Accessibility audit skill for scanning, fixing, and verifying WCAG 2.2 Level A and AA compliance across React, Next.js, Vue, Angular, Svelte, and plain HTML codebases. Use when auditing accessibility, fixing a11y violations, checking color contrast, generating compliance reports, or integrating accessibility checks into CI/CD pipelines."
+    },
+    {
       "name": "aws-solution-architect",
       "source": "../../engineering-team/aws-solution-architect",
       "category": "engineering",
@@ -214,6 +220,18 @@
       "source": "../../engineering-team/email-template-builder",
       "category": "engineering",
       "description": "Email Template Builder"
+    },
+    {
+      "name": "epic-design",
+      "source": "../../engineering-team/epic-design",
+      "category": "engineering",
+      "description": ">"
+    },
+    {
+      "name": "google-workspace-cli",
+      "source": "../../engineering-team/google-workspace-cli",
+      "category": "engineering",
+      "description": "Google Workspace administration via the gws CLI. Install, authenticate, and automate Gmail, Drive, Sheets, Calendar, Docs, Chat, and Tasks. Run security audits, execute 43 built-in recipes, and use 10 persona bundles. Use for Google Workspace admin, gws CLI setup, Gmail automation, Drive management, or Calendar scheduling."
     },
     {
       "name": "incident-commander",
@@ -348,6 +366,12 @@
       "description": "Agent Workflow Designer"
     },
     {
+      "name": "agenthub",
+      "source": "../../engineering/agenthub",
+      "category": "engineering-advanced",
+      "description": "Multi-agent collaboration plugin that spawns N parallel subagents competing on the same task via git worktree isolation. Agents work independently, results are evaluated by metric or LLM judge, and the best branch is merged. Use when: user wants multiple approaches tried in parallel \u2014 code optimization, content variation, research exploration, or any task that benefits from parallel competition. Requires: a git repo."
+    },
+    {
       "name": "api-design-reviewer",
       "source": "../../engineering/api-design-reviewer",
       "category": "engineering-advanced",
@@ -358,6 +382,12 @@
       "source": "../../engineering/api-test-suite-builder",
       "category": "engineering-advanced",
       "description": "API Test Suite Builder"
+    },
+    {
+      "name": "autoresearch-agent",
+      "source": "../../engineering/autoresearch-agent",
+      "category": "engineering-advanced",
+      "description": "Autonomous experiment loop that optimizes any file by a measurable metric. Inspired by Karpathy's autoresearch. The agent edits a target file, runs a fixed evaluation, keeps improvements (git commit), discards failures (git reset), and loops indefinitely. Use when: user wants to optimize code speed, reduce bundle/image size, improve test pass rate, optimize prompts, improve content quality (headlines, copy, CTR), or run any measurable improvement loop. Requires: a target file, an evaluation command that outputs a metric, and a git repo."
     },
     {
       "name": "changelog-generator",
@@ -396,6 +426,12 @@
       "description": "Dependency Auditor"
     },
     {
+      "name": "docker-development",
+      "source": "../../engineering/docker-development",
+      "category": "engineering-advanced",
+      "description": "Docker and container development agent skill and plugin for Dockerfile optimization, docker-compose orchestration, multi-stage builds, and container security hardening. Use when: user wants to optimize a Dockerfile, create or improve docker-compose configurations, implement multi-stage builds, audit container security, reduce image size, or follow container best practices. Covers build performance, layer caching, secret management, and production-ready container patterns."
+    },
+    {
       "name": "env-secrets-manager",
       "source": "../../engineering/env-secrets-manager",
       "category": "engineering-advanced",
@@ -406,6 +442,12 @@
       "source": "../../engineering/git-worktree-manager",
       "category": "engineering-advanced",
       "description": "Git Worktree Manager"
+    },
+    {
+      "name": "helm-chart-builder",
+      "source": "../../engineering/helm-chart-builder",
+      "category": "engineering-advanced",
+      "description": "Helm chart development agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw \u2014 chart scaffolding, values design, template patterns, dependency management, security hardening, and chart testing. Use when: user wants to create or improve Helm charts, design values.yaml files, implement template helpers, audit chart security (RBAC, network policies, pod security), manage subcharts, or run helm lint/test."
     },
     {
       "name": "interview-system-designer",
@@ -486,10 +528,22 @@
       "description": "Scan codebases for technical debt, score severity, track trends, and generate prioritized remediation plans. Use when users mention tech debt, code quality, refactoring priority, debt scoring, cleanup sprints, or code health assessment. Also use for legacy code modernization planning and maintenance cost estimation."
     },
     {
+      "name": "terraform-patterns",
+      "source": "../../engineering/terraform-patterns",
+      "category": "engineering-advanced",
+      "description": "Terraform infrastructure-as-code agent skill and plugin for Claude Code, Codex, Gemini CLI, Cursor, OpenClaw. Covers module design patterns, state management strategies, provider configuration, security hardening, policy-as-code with Sentinel/OPA, and CI/CD plan/apply workflows. Use when: user wants to design Terraform modules, manage state backends, review Terraform security, implement multi-region deployments, or follow IaC best practices."
+    },
+    {
       "name": "financial-analyst",
       "source": "../../finance/financial-analyst",
       "category": "finance",
       "description": "Performs financial ratio analysis, DCF valuation, budget variance analysis, and rolling forecast construction for strategic decision-making. Use when analyzing financial statements, building valuation models, assessing budget variances, or constructing financial projections and forecasts. Also applicable when users mention financial modeling, cash flow analysis, company valuation, financial projections, or spreadsheet analysis."
+    },
+    {
+      "name": "saas-metrics-coach",
+      "source": "../../finance/saas-metrics-coach",
+      "category": "finance",
+      "description": "SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC, NRR, or asks how their SaaS business is doing."
     },
     {
       "name": "ab-test-setup",
@@ -744,10 +798,22 @@
       "description": "When the user wants to develop social media strategy, plan content calendars, manage community engagement, or grow their social presence across platforms. Also use when the user mentions 'social media strategy,' 'social calendar,' 'community management,' 'social media plan,' 'grow followers,' 'engagement rate,' 'social media audit,' or 'which platforms should I use.' For writing individual social posts, see social-content. For analyzing social performance data, see social-media-analyzer."
     },
     {
+      "name": "x-twitter-growth",
+      "source": "../../marketing-skill/x-twitter-growth",
+      "category": "marketing",
+      "description": "X/Twitter growth engine for building audience, crafting viral content, and analyzing engagement. Use when the user wants to grow on X/Twitter, write tweets or threads, analyze their X profile, research competitors on X, plan a posting strategy, or optimize engagement. Complements social-content (generic multi-platform) with X-specific depth: algorithm mechanics, thread engineering, reply strategy, profile optimization, and competitive intelligence via web search."
+    },
+    {
       "name": "agile-product-owner",
       "source": "../../product-team/agile-product-owner",
       "category": "product",
       "description": "Agile product ownership for backlog management and sprint execution. Covers user story writing, acceptance criteria, sprint planning, and velocity tracking. Use for writing user stories, creating acceptance criteria, planning sprints, estimating story points, breaking down epics, or prioritizing backlog."
+    },
+    {
+      "name": "code-to-prd",
+      "source": "../../product-team/code-to-prd",
+      "category": "product",
+      "description": "|"
     },
     {
       "name": "competitive-teardown",
@@ -756,10 +822,28 @@
       "description": "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits, pricing model breakdowns, action item roadmaps, and stakeholder presentation templates. Use when conducting competitor analysis, comparing products against competitors, researching the competitive landscape, building battle cards for sales, preparing for a product strategy or roadmap session, responding to a competitor's new feature or pricing change, or performing a quarterly competitive review."
     },
     {
+      "name": "experiment-designer",
+      "source": "../../product-team/experiment-designer",
+      "category": "product",
+      "description": "Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor."
+    },
+    {
       "name": "landing-page-generator",
       "source": "../../product-team/landing-page-generator",
       "category": "product",
       "description": "Generates high-converting landing pages as complete Next.js/React (TSX) components with Tailwind CSS. Creates hero sections, feature grids, pricing tables, FAQ accordions, testimonial blocks, and CTA sections using proven copy frameworks (PAS, AIDA, BAB). Outputs SEO meta tags, structured data, and performance-optimised code targeting Core Web Vitals (LCP < 1s, CLS < 0.1). Use when the user asks to create a landing page, marketing page, homepage, single-page site, lead capture page, campaign page, promo page, or conversion-optimised web page \u2014 or when they want to A/B test landing page variants or replace a static page with one designed to convert."
+    },
+    {
+      "name": "product-analytics",
+      "source": "../../product-team/product-analytics",
+      "category": "product",
+      "description": "Use when defining product KPIs, building metric dashboards, running cohort or retention analysis, or interpreting feature adoption trends across product stages."
+    },
+    {
+      "name": "product-discovery",
+      "source": "../../product-team/product-discovery",
+      "category": "product",
+      "description": "Use when validating product opportunities, mapping assumptions, planning discovery sprints, or testing problem-solution fit before committing delivery resources."
     },
     {
       "name": "product-manager-toolkit",
@@ -772,6 +856,18 @@
       "source": "../../product-team/product-strategist",
       "category": "product",
       "description": "Strategic product leadership toolkit for Head of Product covering OKR cascade generation, quarterly planning, competitive landscape analysis, product vision documents, and team scaling proposals. Use when creating quarterly OKR documents, defining product goals or KPIs, building product roadmaps, running competitive analysis, drafting team structure or hiring plans, aligning product strategy across engineering and design, or generating cascaded goal hierarchies from company to team level."
+    },
+    {
+      "name": "research-summarizer",
+      "source": "../../product-team/research-summarizer",
+      "category": "product",
+      "description": "Structured research summarization agent skill for non-dev users. Handles academic papers, web articles, reports, and documentation. Extracts key findings, generates comparative analyses, and produces properly formatted citations. Use when: user wants to summarize a research paper, compare multiple sources, extract citations from documents, or create structured research briefs. Plugin for Claude Code, Codex, Gemini CLI, and OpenClaw."
+    },
+    {
+      "name": "roadmap-communicator",
+      "source": "../../product-team/roadmap-communicator",
+      "category": "product",
+      "description": "Use when preparing roadmap narratives, release notes, changelogs, or stakeholder updates tailored for executives, engineering teams, and customers."
     },
     {
       "name": "saas-scaffolder",
@@ -912,27 +1008,27 @@
       "description": "Executive leadership and advisory skills"
     },
     "engineering": {
-      "count": 23,
+      "count": 26,
       "source": "../../engineering-team",
       "description": "Software engineering and technical skills"
     },
     "engineering-advanced": {
-      "count": 25,
+      "count": 30,
       "source": "../../engineering",
       "description": "Advanced engineering skills - agents, RAG, MCP, CI/CD, databases, observability"
     },
     "finance": {
-      "count": 1,
+      "count": 2,
       "source": "../../finance",
       "description": "Financial analysis, valuation, and forecasting skills"
     },
     "marketing": {
-      "count": 42,
+      "count": 43,
       "source": "../../marketing-skill",
       "description": "Marketing, content, and demand generation skills"
     },
     "product": {
-      "count": 8,
+      "count": 14,
       "source": "../../product-team",
       "description": "Product management and design skills"
     },

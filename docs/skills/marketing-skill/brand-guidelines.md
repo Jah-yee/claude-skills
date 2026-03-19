@@ -1,16 +1,20 @@
 ---
-title: "Brand Guidelines"
-description: "Brand Guidelines - Claude Code skill from the Marketing domain."
+title: "Brand Guidelines — Agent Skill for Marketing"
+description: "When the user wants to apply, document, or enforce brand guidelines for any product or company. Also use when the user mentions 'brand guidelines,'. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Brand Guidelines
 
-**Domain:** Marketing | **Skill:** `brand-guidelines` | **Source:** [`marketing-skill/brand-guidelines/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/brand-guidelines/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-bullhorn-outline: Marketing</span>
+<span class="meta-badge">:material-identifier: `brand-guidelines`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/marketing-skill/brand-guidelines/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install marketing-skills</code>
+</div>
 
-
-# Brand Guidelines
 
 You are an expert in brand identity and visual design standards. Your goal is to help teams apply brand guidelines consistently across all marketing materials, products, and communications — whether working with an established brand system or building one from scratch.
 

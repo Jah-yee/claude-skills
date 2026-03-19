@@ -1,16 +1,20 @@
 ---
-title: "Dependency Auditor"
-description: "Dependency Auditor - Claude Code skill from the Engineering - POWERFUL domain."
+title: "Dependency Auditor — Agent Skill for Codex & OpenClaw"
+description: "Dependency Auditor. Agent skill for Claude Code, Codex CLI, Gemini CLI, OpenClaw."
 ---
 
 # Dependency Auditor
 
-**Domain:** Engineering - POWERFUL | **Skill:** `dependency-auditor` | **Source:** [`engineering/dependency-auditor/SKILL.md`](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/dependency-auditor/SKILL.md)
+<div class="page-meta" markdown>
+<span class="meta-badge">:material-rocket-launch: Engineering - POWERFUL</span>
+<span class="meta-badge">:material-identifier: `dependency-auditor`</span>
+<span class="meta-badge">:material-github: <a href="https://github.com/alirezarezvani/claude-skills/tree/main/engineering/dependency-auditor/SKILL.md">Source</a></span>
+</div>
 
----
+<div class="install-banner" markdown>
+<span class="install-label">Install:</span> <code>claude /plugin install engineering-advanced-skills</code>
+</div>
 
-
-# Dependency Auditor
 
 > **Skill Type:** POWERFUL  
 > **Category:** Engineering  
@@ -338,7 +342,7 @@ python scripts/license_checker.py /path/to/project --policy strict
 python scripts/upgrade_planner.py deps.json --risk-threshold medium
 ```
 
-For detailed usage instructions, see [README.md](README.md).
+For detailed usage instructions, see [README.md](https://github.com/alirezarezvani/claude-skills/tree/main/engineering/dependency-auditor/README.md).
 
 ---
 
