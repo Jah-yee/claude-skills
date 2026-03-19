@@ -1,0 +1,125 @@
+name: Skill Review
+
+on:
+  pull_request:
+    paths:
+      - 'plugins/**/skills/**/SKILL.md'
+      - '.github/workflows/skill-review.yml'
+
+jobs:
+  validate-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Validate skill frontmatter
+        id: validate
+        run: |
+          python3 << 'EOF'
+          import os, sys, yaml, re
+          from pathlib import Path
+
+          errors = []
+          warnings = []
+
+          # Find all SKILL.md files
+          skill_files = list(Path('plugins').rglob('SKILL.md'))
+
+          if not skill_files:
+            print("No skill files found in PR")
+            sys.exit(0)
+
+          print(f"Found {len(skill_files)} skill file(s)")
+
+          for skill_path in skill_files:
+            rel_path = str(skill_path)
+            content = skill_path.read_text()
+
+            # Extract YAML frontmatter
+            match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+            if not match:
+              errors.append(f"{rel_path}: Missing or invalid YAML frontmatter (---)")
+              continue
+
+            try:
+              fm = yaml.safe_load(match.group(1))
+            except yaml.YAMLError as e:
+              errors.append(f"{rel_path}: Invalid YAML: {e}")
+              continue
+
+            # Check required fields
+            if not fm.get('name'):
+              errors.append(f"{rel_path}: Missing required field 'name'")
+            if not fm.get('description'):
+              errors.append(f"{rel_path}: Missing required field 'description'")
+            elif len(fm['description']) < 20:
+              warnings.append(f"{rel_path}: 'description' is very short ({len(fm['description'])} chars)")
+
+            # Check description ends with a period
+            if fm.get('description') and not fm['description'].endswith('.'):
+              warnings.append(f"{rel_path}: 'description' should end with a period")
+
+            # Check compatibility field
+            valid_compat = ['claude-code-only', 'claude-desktop-only', 'both', None]
+            if fm.get('compatibility') and fm['compatibility'] not in valid_compat:
+              warnings.append(f"{rel_path}: Unknown compatibility value '{fm['compatibility']}'")
+
+            # Check allowed-tools
+            all_tools = {'Read', 'Write', 'Edit', 'Bash', 'Glob', 'Grep', 'WebSearch',
+                        'WebFetch', 'Browser', 'TodoWrite', 'NotebookRead', 'NotebookEdit',
+                        'Agent', 'Ask', 'Reject', 'Accept'}
+            tools = fm.get('allowed-tools', [])
+            if tools:
+              unknown = set(tools) - all_tools
+              if unknown:
+                warnings.append(f"{rel_path}: Unknown tools: {', '.join(unknown)}")
+
+            # Check body has content
+            body = content[match.end():].strip()
+            if len(body) < 100:
+              warnings.append(f"{rel_path}: Skill body is very short ({len(body)} chars)")
+
+            print(f"✓ {rel_path}: name='{fm.get('name', 'MISSING')}'")
+
+          # Output results
+          if errors:
+            print("\n❌ ERRORS:")
+            for e in errors:
+              print(f"  - {e}")
+
+          if warnings:
+            print("\n⚠️  WARNINGS:")
+            for w in warnings:
+              print(f"  - {w}")
+
+          if not errors and not warnings:
+            print("\n✅ All skills pass validation!")
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+            f.write(f"errors={len(errors)}\n")
+            f.write(f"warnings={len(warnings)}\n")
+            f.write(f"message=Validation complete: {len(errors)} errors, {len(warnings)} warnings\n")
+          EOF
+
+      - name: Post validation comment
+        if: steps.validate.outputs.errors != '0' || steps.validate.outputs.warnings != '0'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { errors, warnings } = ${{ steps.validate.outputs }};
+            const pr = context.payload.pull_request;
+            await github.rest.issues.createComment({
+              issue_number: pr.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## Skill Review Results\n\n⚠️ This PR modifies skill files. Automated validation found:\n- **${{ steps.validate.outputs.errors }}** errors\n- **${{ steps.validate.outputs.warnings }}** warnings\n\nPlease review the workflow logs for details.`
+            });
